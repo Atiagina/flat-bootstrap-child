@@ -29,7 +29,7 @@ Tags: one-column, right-sidebar, left-sidebar, fluid-layout, responsive-layout, 
 
 /* Change the content (page) header to dark blue. */
 .content-header {
-	background-color: #2980b9;
+	background-color: lightsalmon;
 }
 
 /* Change the main link color to dark blue. Note that the hover color is set using a 
