@@ -32,7 +32,7 @@ Tags: one-column, right-sidebar, left-sidebar, fluid-layout, responsive-layout, 
 	background-color: olive;
 }
 
-.site-title {
+.site-title a {
 	color: olive;
 }
 
