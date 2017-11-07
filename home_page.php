@@ -16,10 +16,6 @@ Template Name:Home Page
 
 get_header(); ?>
 <h1>I love cats. Especially my cat Kot.</h1>
-
-	<?php get_sidebar(); ?>
 		
-</div><!-- .row -->
-</div><!-- .container -->
 
 <?php get_footer(); ?>
