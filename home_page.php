@@ -15,31 +15,7 @@ Template Name:Home Page
  */
 
 get_header(); ?>
-
-<?php get_template_part( 'content', 'header' ); ?>
-
-<?php get_sidebar( 'home' ); ?>
-
-<div class="container">
-<div id="main-grid" class="row">
-
-	<div id="primary" class="content-area col-md-8">
-		<main id="main" class="site-main" role="main">
-	<h1>I love cats. Especially my cat Kot.</h1>
-			<?php while ( have_posts() ) : the_post(); ?>
-
-				<?php get_template_part( 'content', 'page' ); ?>
-
-				<?php
-					// If comments are open or we have at least one comment, load up the comment template
-					if ( comments_open() || '0' != get_comments_number() )
-						comments_template();
-				?>
-
-			<?php endwhile; // end of the loop. ?>
-
-		</main><!-- #main -->
-	</div><!-- #primary -->
+<h1>I love cats. Especially my cat Kot.</h1>
 
 	<?php get_sidebar(); ?>
 		
