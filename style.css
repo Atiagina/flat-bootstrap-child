@@ -59,3 +59,8 @@ a:focus {
 /* PUT ANY NEW STYLES TO USE IN YOUR CONTENT AREAS HERE SO YOU CAN EASILY PASTE THIS
  * SECTION IF YOU CHANGE THEMES
  */
+
+.upw-posts article {
+	width: 30%;
+	float: left;
+}
