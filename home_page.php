@@ -15,7 +15,10 @@ Template Name:Home Page
  */
 
 get_header(); ?>
+<div class="container">
+<div class="row">
 <h1>I love cats. Especially my cat Kot.</h1>
-		
+	</div>
+</div>
 
 <?php get_footer(); ?>
