@@ -24,7 +24,12 @@ get_header(); ?>
 </div>
 <div class="container">
 <div class="row">
-<h1>Headline 2</h1>
+<!-- slide show goes here -->
+<?php
+if( function_exists('fa_display_slider') ){
+    fa_display_slider( 194 );
+}
+?> 
 	</div>
 </div>
 
