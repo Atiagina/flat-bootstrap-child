@@ -37,9 +37,7 @@
 	<header id="masthead" class="site-header" role="banner">
 		
 		<nav id="site-navigation" class="main-navigation" role="navigation">
- <div class="site-logo-onscroll">
-               <a href="<?php echo esc_url( home_url( '/' ) ); ?>" rel="home"><img src="<?php echo header_image() ?>" alt="logo" id="wanderwomenlogoonscroll"></a>
-					</div>
+ 
 			<h2 class="menu-toggle screen-reader-text sr-only "><?php _e( 'Primary Menu', 'flat-bootstrap' ); ?></h2>
 			<div class="skip-link"><a class="screen-reader-text sr-only" href="#content"><?php _e( 'Skip to content', 'flat-bootstrap' ); ?></a></div>
 
@@ -66,7 +64,9 @@
         $navbar .= '</div><!-- navbar-header -->';
 
 		// Display the desktop navbar
-		$navbar .= '<div class="navbar-collapse collapse">';
+		$navbar .= '<div class="navbar-collapse collapse"> <div class="site-logo-onscroll">
+               <a href="<?php echo esc_url( home_url( '/' ) ); ?>" rel="home"><img src="<?php echo header_image() ?>" alt="logo" id="wanderwomenlogoonscroll"></a>
+					</div>';
 		$navbar .= wp_nav_menu( 
 			array(  'theme_location' => 'primary',
 			//'container_class' => 'navbar-collapse collapse', //<nav> or <div> class
