@@ -45,7 +45,7 @@ body {
 
 @font-face {
     font-family: GraphikBold;
-    src: url('http://atiagina.com/fonts/Graphik-Bold.otf');
+    src: url(http://atiagina.com/fonts/Graphik-Bold.otf);
 }
 
 @font-face {
