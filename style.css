@@ -28,6 +28,10 @@ Tags: one-column, right-sidebar, left-sidebar, fluid-layout, responsive-layout, 
 */
 
 /* Change the content (page) header to dark blue. */
+
+body {
+	background-color: white;
+}
 .content-header {
 	background-color: olive;
 }
