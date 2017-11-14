@@ -51,7 +51,7 @@
 			.esc_url( home_url( '/' ) )
 			.' rel="home"><img src="'
 			.header_image() 
-			.'alt="logo" id="wanderwomenlogo"></a>'
+			.'" alt="logo" id="wanderwomenlogo"></a>'
           	.'<button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">'
             .'<span class="icon-bar"></span>'
             .'<span class="icon-bar"></span>'
