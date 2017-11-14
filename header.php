@@ -47,9 +47,9 @@
 		// display it if user turns off the main site title and tagline.
 		$navbar .= '<a class="navbar-brand" href="'
 			.esc_url( home_url( '/' ) )
-			.'" rel="home">'
+			.'" rel="home"> ['
 			.get_bloginfo( 'name' )
-			.'</a>';
+			.']</a>';
 		
         $navbar .= '</div><!-- navbar-header -->';
 
