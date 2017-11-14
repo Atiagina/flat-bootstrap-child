@@ -26,15 +26,15 @@
     $('.wanderwomenlogoonscroll').fadeIn();
 	  $('.navbar-fixed-top').removeClass('black');
 	  $('.navbar-fixed-top').addClass('white');
-	  $('#menu-main-menu>li>a').addClass('blacklink');
-	  $('#menu-main-menu>li>a').removeClass('whitelink');
+	  $('.navbar-default .navbar-nav>li>a').addClass('blacklink');
+	  $('.navbar-default .navbar-nav>li>a').removeClass('whitelink');
   } else {
 	  $('.wanderwomenlogoonscroll').removeClass('makevisible');
     $('.wanderwomenlogoonscroll').fadeOut();
 	$('.navbar-fixed-top').removeClass('white');
 	  $('.navbar-fixed-top').addClass('black');
-	  $('#menu-main-menu>li>a').removeClass('blacklink');
-	  $('#menu-main-menu>li>a').addClass('whitelink');
+	  $('.navbar-default .navbar-nav>li>a').removeClass('blacklink');
+	  $('.navbar-default .navbar-nav>li>a').addClass('whitelink');
   }
 });
 	</script>
