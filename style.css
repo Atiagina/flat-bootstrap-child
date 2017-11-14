@@ -199,13 +199,13 @@ a:focus {
 	
 	display: grid;
 	grid-template-columns: repeat(10, 1fr);
-	grid-template-rows: auto;
+	grid-template-rows: repeat (8, 1fr);
 	height: 100%;
 }
 
 #mapofcdmx {
 	grid-row: 2/10;
-	grid-column: 3/8;
+	grid-column: 2/8;
 	z-index: 10;
 	height: 100vh;
 }
@@ -221,7 +221,7 @@ a:focus {
 
 #featuredtitle {
 	grid-row: 2/3;
-	grid-column: 1/6;
+	grid-column: 1/2;
 	z-index: 80;
 }
 
