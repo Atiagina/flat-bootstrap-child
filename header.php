@@ -15,8 +15,7 @@
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <link rel="profile" href="http://gmpg.org/xfn/11">
 <link rel="pingback" href="<?php bloginfo( 'pingback_url' ); ?>">
-<link href="http://atiagina.com/fonts/Graphik-Regular.otf" rel="stylesheet">
-<link href="http://atiagina.com/fonts/Graphik-Bold.otf" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css?family=Rubik:300,300i,400,400i,500,500i,700,700i,900,900i" rel="stylesheet">
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
 
 <?php wp_head(); ?>

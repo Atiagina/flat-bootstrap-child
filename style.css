@@ -38,37 +38,12 @@ body {
 	background-color: olive;
 }
 
-@font-face {
-    font-family: GraphikRegular;
-    src: url(http://atiagina.com/fonts/Graphik-Regular.otf);
-}
-
-@font-face {
-    font-family: GraphikBold;
-    src: url(http://atiagina.com/fonts/Graphik-Bold.otf);
-}
-
-@font-face {
-    font-family: GraphikLight;
-    src: url(http://atiagina.com/fonts/Graphik-Light.otf);
-}
-
-@font-face {
-    font-family: GraphikExtraLight;
-    src: url(http://atiagina.com/fonts/Graphik-Extralight.otf) format("opentype");;
-}
-
-@font-face {
-    font-family: GraphikMedium;
-    src: url(http://atiagina.com/fonts/Graphik-Medium.otf) format("opentype");
-}
-
 h1, h2, h3 {
-	font-family: GraphikMedium;
+	font-family: 'Rubik', sans-serif;
 }
 
 h4 {
-	font-family: GraphikMedium;
+	font-family: 'Rubik', sans-serif;
 }
 
 
@@ -184,14 +159,14 @@ a:focus {
 
 .navbar-default .navbar-nav>li>a {
 	color: white; !important
-	font-family: GraphikRegular;
+	font-family: 'Rubik', sans-serif;
 	transition: .5s ease;
 }
 
 .navbar-default .navbar-nav>.active>a, .navbar-default .navbar-nav>.active>a:hover, .navbar-default .navbar-nav>.active>a:focus {
 	background-color: none; !important
 	text-decoration: underline;
-	font-family: GraphikRegular;
+	font-family: 'Rubik', sans-serif;
 }
 
 button {
