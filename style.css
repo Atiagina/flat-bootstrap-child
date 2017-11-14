@@ -40,27 +40,27 @@ body {
 
 @font-face {
     font-family: GraphikRegular;
-    src: url('atiagina.com/fonts/Graphik-Regular.otf');
+    src: url('http://atiagina.com/fonts/Graphik-Regular.otf');
 }
 
 @font-face {
     font-family: GraphikBold;
-    src: url('atiagina.com/fonts/Graphik-Bold.otf');
+    src: url('http://atiagina.com/fonts/Graphik-Bold.otf');
 }
 
 @font-face {
     font-family: GraphikLight;
-    src: url('atiagina.com/fonts/Graphik-Light.otf');
+    src: url('http://atiagina.com/fonts/Graphik-Light.otf');
 }
 
 @font-face {
     font-family: GraphikExtraLight;
-    src: url('atiagina.com/fonts/Graphik-Extralight.otf');
+    src: url('http://atiagina.com/fonts/Graphik-Extralight.otf');
 }
 
 @font-face {
     font-family: GraphikMedium;
-    src: url('atiagina.com/fonts/Graphik-Medium.otf');
+    src: url('http://atiagina.com/fonts/Graphik-Medium.otf');
 }
 
 h1, h2, h3 {
