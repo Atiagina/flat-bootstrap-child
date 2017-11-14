@@ -65,11 +65,15 @@ a:focus {
 	float: left;
 	margin-right: 3%;
 }
-
-.navbar.navbar-fixed-top {
-	background-color: white;
+#site-branding {
+	margin-top: 60px;
 	padding-top: 20px;
 	padding-bottom: 20px;
+}
+.navbar.navbar-fixed-top {
+	background-color: white;
+	padding-top: 10px;
+	padding-bottom: 10px;
 }
 .navbar-static-top {
 	background-color: white;
@@ -87,6 +91,5 @@ a:focus {
 }
 
 .wanderwomenlogoonscroll {
-	visibility: hidden;
-	height: 40px;
+	height: 60px;
 }
