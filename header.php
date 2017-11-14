@@ -84,6 +84,7 @@
 			<div id="site-branding" class="site-branding">
 			
 			<?php
+				/*
 			// Get custom header image and determine its size
 			if ( get_header_image() ) {
 			?>
@@ -99,7 +100,7 @@
 
 			// If no custom header, then just display the site title and tagline
 			} else {
-			?>
+			*/ ?>
 				<div class="container">
                <div class="site-logo">
                <a href="<?php echo esc_url( home_url( '/' ) ); ?>" rel="home"><img src="url('<?php echo header_image() ?>');" alt="logo" id="wanderwomenlogo"></a>
@@ -111,7 +112,9 @@
 				</div>
 				</div>
 			<?php
+				/*
 			} //endif get_header_image()
+			*/
 			?>
 			</div><!-- .site-branding -->
 
