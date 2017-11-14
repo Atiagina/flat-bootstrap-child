@@ -91,6 +91,11 @@ a:focus {
 
 .wanderwomenlogoonscroll {
 	height: 60px;
+	visibility: hidden;
+}
+
+.makevisible {
+	visibility: visible;
 }
 
 .black{

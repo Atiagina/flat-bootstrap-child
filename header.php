@@ -22,10 +22,12 @@
 	$(document).scroll(function() {
   var y = $(this).scrollTop();
   if (y > 200) {
+	  $('.wanderwomenlogoonscroll').addClass('makevisible');
     $('.wanderwomenlogoonscroll').fadeIn();
 	  $('.navbar-fixed-top').removeClass('black');
 	  $('.navbar-fixed-top').addClass('white');
   } else {
+	  $('.wanderwomenlogoonscroll').removeClass('makevisible');
     $('.wanderwomenlogoonscroll').fadeOut();
 	$('.navbar-fixed-top').removeClass('white');
 	$('.navbar-fixed-top').addClass('black');
