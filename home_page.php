@@ -53,7 +53,7 @@ get_header(); ?>
 <!-- slide show goes here -->
 <?php
 if( function_exists('fa_display_slider') ){
-    fa_display_slider( 194 );
+    fa_display_slider( 243 );
 }
 ?> 
 	</div>
