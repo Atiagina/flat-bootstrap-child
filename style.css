@@ -32,6 +32,11 @@ Tags: one-column, right-sidebar, left-sidebar, fluid-layout, responsive-layout, 
 	background-color: olive;
 }
 
+@font-face {
+    font-family: GraphikRegular;
+    src: url('atiagina.com/fonts/Graphik-Regular.otf');
+}
+
 .site-title a {
 	color: olive;
 }
@@ -141,5 +146,6 @@ a:focus {
 }
 
 .navbar-default .navbar-nav>li>a {
-	color: white;
+	color: white; !important
+	font-family: GraphikRegular; 
 }
