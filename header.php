@@ -26,11 +26,13 @@
     $('.wanderwomenlogoonscroll').fadeIn();
 	  $('.navbar-fixed-top').removeClass('black');
 	  $('.navbar-fixed-top').addClass('white');
+	  $('.navbar-default .navbar-nav>li>a').addClass('white');
   } else {
 	  $('.wanderwomenlogoonscroll').removeClass('makevisible');
     $('.wanderwomenlogoonscroll').fadeOut();
 	$('.navbar-fixed-top').removeClass('white');
 	  $('.navbar-fixed-top').addClass('black');
+	  $('.navbar-default .navbar-nav>li>a').addClass('black');
   }
 });
 	</script>
