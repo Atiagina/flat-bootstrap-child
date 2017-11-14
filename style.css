@@ -72,13 +72,10 @@ a:focus {
 	padding-bottom: 20px;
 }
 .navbar.navbar-fixed-top {
-	background-color: white;
 	padding-top: 10px;
 	padding-bottom: 10px;
 }
 .navbar-static-top {
-	background-color: white;
-	color: black;
 }
 
 .currentissueheader img {
@@ -97,4 +94,5 @@ a:focus {
 
 .black{
 	background-color: black;
+	color: white;
 }
