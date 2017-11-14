@@ -128,7 +128,7 @@
 			} else {
 			*/ ?>
 				<div class="container">
-               <div class="site-logo col-xs-12 col-sm-4">
+               <div class="site-logo">
                <a href="<?php echo esc_url( home_url( '/' ) ); ?>" rel="home"><img src="<?php echo header_image() ?>" alt="logo" id="wanderwomenlogo"></a>
 					</div>
                 <?php //if ( function_exists( 'jetpack_the_site_logo' ) ) jetpack_the_site_logo(); ?>
@@ -138,7 +138,7 @@
 				<h2 class="site-description"><?php bloginfo( 'description' ); ?></h2>
 				</div>
 				-->
-				<div class="currentissueheader col-xs-12 col-sm-8">
+				<div class="currentissueheader">
 				<?php 
 		$query = new WP_Query( 'pagename=current-issue' );
 		// The Loop
