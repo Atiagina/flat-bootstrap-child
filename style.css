@@ -91,11 +91,11 @@ a:focus {
 
 .wanderwomenlogoonscroll {
 	height: 60px;
-	visibility: hidden;
+	display: none;
 }
 
 .makevisible {
-	visibility: visible;
+	display:inherit;
 }
 
 .black{

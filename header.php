@@ -30,6 +30,7 @@
 	  $('.wanderwomenlogoonscroll').removeClass('makevisible');
     $('.wanderwomenlogoonscroll').fadeOut();
 	$('.navbar-fixed-top').removeClass('white');
+	  $('.navbar-fixed-top').addClass('black');
   }
 });
 	</script>
