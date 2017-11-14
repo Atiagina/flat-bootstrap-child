@@ -15,15 +15,16 @@
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <link rel="profile" href="http://gmpg.org/xfn/11">
 <link rel="pingback" href="<?php bloginfo( 'pingback_url' ); ?>">
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
 
 <?php wp_head(); ?>
 <script>
 	$(document).scroll(function() {
   var y = $(this).scrollTop();
   if (y > 300) {
-    $('#wanderwomenlogoonscroll').fadeIn();
+    $('.wanderwomenlogoonscroll').fadeIn();
   } else {
-    $('#wanderwomenlogoonscroll').fadeOut();
+    $('.wanderwomenlogoonscroll').fadeOut();
   }
 });
 	</script>
@@ -60,7 +61,7 @@
 			. esc_url( home_url( '/' ))
 			. '" rel="home"><img src="'
 			. get_header_image()
-			. ' " alt="logo" id="wanderwomenlogoonscroll"></a>'
+			. ' " alt="logo" class="wanderwomenlogoonscroll"></a>'
 		. '<button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">'
             .'<span class="icon-bar"></span>'
             .'<span class="icon-bar"></span>'
