@@ -40,7 +40,7 @@ body {
 
 @font-face {
     font-family: GraphikRegular;
-    src: url('http://atiagina.com/fonts/Graphik-Regular.otf');
+    src: url(http://atiagina.com/fonts/Graphik-Regular.otf);
 }
 
 @font-face {
@@ -50,21 +50,21 @@ body {
 
 @font-face {
     font-family: GraphikLight;
-    src: url('http://atiagina.com/fonts/Graphik-Light.otf');
+    src: url(http://atiagina.com/fonts/Graphik-Light.otf);
 }
 
 @font-face {
     font-family: GraphikExtraLight;
-    src: url('http://atiagina.com/fonts/Graphik-Extralight.otf');
+    src: url(http://atiagina.com/fonts/Graphik-Extralight.otf);
 }
 
 @font-face {
     font-family: GraphikMedium;
-    src: url('http://atiagina.com/fonts/Graphik-Medium.otf');
+    src: url(http://atiagina.com/fonts/Graphik-Medium.otf);
 }
 
 h1, h2, h3 {
-	font-family: GraphikBold;
+	font-family: GraphikMedium;
 }
 
 h4 {
