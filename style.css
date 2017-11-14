@@ -230,18 +230,18 @@ button {
 }
 
 #currentissue {
-	height: 50vh;
+	height: 60vh;
 	display: flex;
 	justify-content: center;
 	align-items: center;
-	margin-top: 2vh;
-	margin-bottom: 2vh;
+	margin-top: 40px;
+	margin-bottom: 40px;
 	padding: 2vh 2vw;
 	background-color: black;
 }
 
 #currentissue img {
-	height: 45vh;
+	height: 55vh;
 	width: auto;
 }
 
