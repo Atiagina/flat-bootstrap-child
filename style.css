@@ -74,6 +74,7 @@ a:focus {
 .navbar.navbar-fixed-top {
 	padding-top: 10px;
 	padding-bottom: 10px;
+	trransition: .5s ease;
 }
 .navbar-static-top {
 }
@@ -92,7 +93,12 @@ a:focus {
 	height: 60px;
 }
 
-#black{
+.black{
 	background-color: black;
 	color: white;
+}
+
+.white{
+	background-color: white;
+	color: black;
 }

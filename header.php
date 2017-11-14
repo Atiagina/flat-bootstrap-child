@@ -24,9 +24,10 @@
   if (y > 200) {
     $('.wanderwomenlogoonscroll').fadeIn();
 	  $('.navbar-fixed-top').removeClass('black');
+	  $('.navbar-fixed-top').addClass('white');
   } else {
     $('.wanderwomenlogoonscroll').fadeOut();
-	
+	$('.navbar-fixed-top').removeClass('white');
 	$('.navbar-fixed-top').addClass('black');
   }
 });
