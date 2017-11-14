@@ -42,12 +42,6 @@ get_header(); ?>
 </div>
 <?php get_sidebar('home'); ?>
 
-
-<div class="container">
-<div class="row">
-<h1>I love cats. Especially my cat Kot.</h1>
-	</div>
-</div>
 <div class="container">
 <div class="row">
 <!-- slide show goes here -->
@@ -61,9 +55,9 @@ if( function_exists('fa_display_slider') ){
 
 <div class="container">
 <div class="row">
-<h2>Recent Posts</h2>
+<h2>Tips</h2>
 <?php $custom_query = new
-WP_Query('posts_per_page=4&category_name=architecture');
+WP_Query('posts_per_page=4&category_name=tips');
 while($custom_query->have_posts()) : $custom_query->the_post(); ?>
 <!--before you start showing me a post, wrap it in a div with a
 bootstrap class-->
