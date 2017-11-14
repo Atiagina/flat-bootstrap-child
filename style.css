@@ -65,3 +65,8 @@ a:focus {
 	float: left;
 	margin-right: 3%;
 }
+
+.navbar-static-top {
+	background-color: black;
+	color: white;
+}
