@@ -235,9 +235,10 @@ button {
 	justify-content: center;
 	align-content: center;
 	padding: 2vh 2vw;
-	baclground-color: black;
+	background-color: black;
 }
 
 #currentissue img {
-	max-width: 50vw;
+	height: 80vh;
+	width: auto;
 }
