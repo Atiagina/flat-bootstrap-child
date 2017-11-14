@@ -233,7 +233,7 @@ button {
 	height: 100vh;
 	display: flex;
 	justify-content: center;
-	align-content: center;
+	align-items: center;
 	padding: 2vh 2vw;
 	background-color: black;
 }
@@ -241,4 +241,8 @@ button {
 #currentissue img {
 	height: 80vh;
 	width: auto;
+}
+
+.fluidblack {
+	background-color: black;
 }

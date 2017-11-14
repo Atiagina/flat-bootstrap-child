@@ -41,7 +41,7 @@ get_header(); ?>
 	</div>
 </div>
 
-<div class="container">
+<div class="container-fluid fluidblack">
 <div class="row">
 <div id="currentissue">
 	 <?php 
