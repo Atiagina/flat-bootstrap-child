@@ -75,3 +75,13 @@ a:focus {
 	background-color: black;
 	color: white;
 }
+
+.currentissueheader img {
+	max-height: 20vh;
+}
+
+.currentissueheader {
+	height: 20vh;
+	display: flex;
+	justify-content: space-around;
+}

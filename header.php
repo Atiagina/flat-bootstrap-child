@@ -106,12 +106,13 @@
                <a href="<?php echo esc_url( home_url( '/' ) ); ?>" rel="home"><img src="<?php echo header_image() ?>" alt="logo" id="wanderwomenlogo"></a>
 					</div>
                 <?php //if ( function_exists( 'jetpack_the_site_logo' ) ) jetpack_the_site_logo(); ?>
-                <div class="site-branding-text col-xs-4">
+               <!--
+                 <div class="site-branding-text col-xs-4">
 				<h1 class="site-title"><a href="<?php echo esc_url( home_url( '/' ) ); ?>" rel="home"><?php bloginfo( 'name' )?></a></h1>
 				<h2 class="site-description"><?php bloginfo( 'description' ); ?></h2>
 				</div>
-				
-				<div class="currentissueheader col-xs-4">
+				-->
+				<div class="currentissueheader col-xs-8">
 				<?php 
 		$query = new WP_Query( 'pagename=current-issue' );
 		// The Loop
@@ -124,10 +125,10 @@
                 echo $url;
                 echo '" class="img-responsive">';
                
-				echo '<h3>' . get_the_title() . '</h3>';
+				echo '<div class="currentissuecontent"> <h3>' . get_the_title() . '</h3>';
 				
 				the_content();
-				
+				echo '</div>';
 			}
 		}
 		/* Restore original Post Data */
