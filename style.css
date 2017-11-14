@@ -55,12 +55,12 @@ body {
 
 @font-face {
     font-family: GraphikExtraLight;
-    src: url(http://atiagina.com/fonts/Graphik-Extralight.otf);
+    src: url(http://atiagina.com/fonts/Graphik-Extralight.otf) format("opentype");;
 }
 
 @font-face {
     font-family: GraphikMedium;
-    src: url(http://atiagina.com/fonts/Graphik-Medium.otf);
+    src: url(http://atiagina.com/fonts/Graphik-Medium.otf) format("opentype");
 }
 
 h1, h2, h3 {
