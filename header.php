@@ -26,15 +26,14 @@
     $('.wanderwomenlogoonscroll').fadeIn();
 	  $('.navbar-fixed-top').removeClass('black');
 	  $('.navbar-fixed-top').addClass('white');
-	  $('.navbar-default>.container>.navbar-collapse>.menu-main-menu-container>.navbar-nav>li>a').addClass('blacklink');
-	  $('.navbar-default>.container>.navbar-collapse>.menu-main-menu-container>.navbar-nav>li>a').removeClass('whitelink');
+	  $('.navbar-default>.container>.navbar-collapse>.menu-main-menu-container>.navbar-nav>li>a').css({'color':'black'});
   } else {
 	  $('.wanderwomenlogoonscroll').removeClass('makevisible');
     $('.wanderwomenlogoonscroll').fadeOut();
 	$('.navbar-fixed-top').removeClass('white');
 	  $('.navbar-fixed-top').addClass('black');
-	  $('.navbar-default>.container>.navbar-collapse>.menu-main-menu-container>.navbar-nav>li>a').removeClass('blacklink');
-	  $('.navbar-default>.container>.navbar-collapse>.menu-main-menu-container>.navbar-nav>li>a').addClass('whitelink');
+	  $('.navbar-default>.container>.navbar-collapse>.menu-main-menu-container>.navbar-nav>li>a').css({'color':'white'});
+	  
   }
 });
 	</script>
