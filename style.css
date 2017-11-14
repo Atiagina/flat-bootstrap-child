@@ -83,5 +83,9 @@ a:focus {
 .currentissueheader {
 	height: 20vh;
 	display: flex;
-	justify-content: space-around;
+	align-content: flex-end;
+}
+
+.site-logo-onscroll {
+	visibility: hidden;
 }

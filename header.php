@@ -17,6 +17,16 @@
 <link rel="pingback" href="<?php bloginfo( 'pingback_url' ); ?>">
 
 <?php wp_head(); ?>
+<script>
+	$(document).scroll(function() {
+  var y = $(this).scrollTop();
+  if (y > 300) {
+    $('.site-logo-onscroll').fadeIn();
+  } else {
+    $('.site-logo-onscroll').fadeOut();
+  }
+});
+	</script>
 </head>
 
 <body <?php body_class(); ?>>
@@ -27,7 +37,9 @@
 	<header id="masthead" class="site-header" role="banner">
 		
 		<nav id="site-navigation" class="main-navigation" role="navigation">
-
+ <div class="site-logo-onscroll">
+               <a href="<?php echo esc_url( home_url( '/' ) ); ?>" rel="home"><img src="<?php echo header_image() ?>" alt="logo" id="wanderwomenlogoonscroll"></a>
+					</div>
 			<h2 class="menu-toggle screen-reader-text sr-only "><?php _e( 'Primary Menu', 'flat-bootstrap' ); ?></h2>
 			<div class="skip-link"><a class="screen-reader-text sr-only" href="#content"><?php _e( 'Skip to content', 'flat-bootstrap' ); ?></a></div>
 
@@ -102,7 +114,7 @@
 			} else {
 			*/ ?>
 				<div class="container">
-               <div class="site-logo col-xs-4">
+               <div class="site-logo col-xs-12 col-sm-4">
                <a href="<?php echo esc_url( home_url( '/' ) ); ?>" rel="home"><img src="<?php echo header_image() ?>" alt="logo" id="wanderwomenlogo"></a>
 					</div>
                 <?php //if ( function_exists( 'jetpack_the_site_logo' ) ) jetpack_the_site_logo(); ?>
@@ -112,7 +124,7 @@
 				<h2 class="site-description"><?php bloginfo( 'description' ); ?></h2>
 				</div>
 				-->
-				<div class="currentissueheader col-xs-8">
+				<div class="currentissueheader col-xs-12 col-sm-8">
 				<?php 
 		$query = new WP_Query( 'pagename=current-issue' );
 		// The Loop
@@ -121,11 +133,11 @@
 				$query->the_post();
                 $url = wp_get_attachment_url( get_post_thumbnail_id($post->ID) );
               ;
-                echo '<img src="';
+                echo '<div class="currentissuegroup"> <img src="';
                 echo $url;
                 echo '" class="img-responsive">';
                
-				echo '<div class="currentissuecontent"> <h3>' . get_the_title() . '</h3>';
+				echo ' <h3>' . get_the_title() . '</h3>';
 				
 				the_content();
 				echo '</div>';
