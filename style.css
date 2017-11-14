@@ -150,6 +150,7 @@ a:focus {
 }
 
 .navbar-default .navbar-nav>li>a {
+	color: white; !important
 	font-family: GraphikRegular; 
 	transition: .5s ease;
 }
