@@ -47,9 +47,9 @@
 		// display it if user turns off the main site title and tagline.
 		$navbar .= '<a class="navbar-brand" href="'
 			.esc_url( home_url( '/' ) )
-			.'" rel="home"> ['
+			.'" rel="home">'
 			.get_bloginfo( 'name' )
-			.']</a>';
+			.'</a>';
 		
         $navbar .= '</div><!-- navbar-header -->';
 
@@ -101,6 +101,9 @@
 			} else {
 			?>
 				<div class="container">
+               <div class="site-logo">
+               <a href="<?php echo esc_url( home_url( '/' ) ); ?>" rel="home"><img src="url('<?php echo header_image() ?>');" alt="logo" id="wanderwomenlogo"></a>
+					</div>
                 <?php //if ( function_exists( 'jetpack_the_site_logo' ) ) jetpack_the_site_logo(); ?>
                 <div class="site-branding-text">
 				<h1 class="site-title"><a href="<?php echo esc_url( home_url( '/' ) ); ?>" rel="home"><?php bloginfo( 'name' )?></a></h1>
