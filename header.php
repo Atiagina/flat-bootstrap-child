@@ -21,7 +21,7 @@
 <script>
 	$(document).scroll(function() {
   var y = $(this).scrollTop();
-  if (y > 300) {
+  if (y > 200) {
     $('.wanderwomenlogoonscroll').fadeIn();
   } else {
     $('.wanderwomenlogoonscroll').fadeOut();
