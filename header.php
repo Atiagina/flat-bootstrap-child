@@ -102,11 +102,11 @@
 			} else {
 			*/ ?>
 				<div class="container">
-               <div class="site-logo">
+               <div class="site-logo col-xs-4">
                <a href="<?php echo esc_url( home_url( '/' ) ); ?>" rel="home"><img src="url('<?php echo header_image() ?>');" alt="logo" id="wanderwomenlogo"></a>
 					</div>
                 <?php //if ( function_exists( 'jetpack_the_site_logo' ) ) jetpack_the_site_logo(); ?>
-                <div class="site-branding-text">
+                <div class="site-branding-text col-xs-8">
 				<h1 class="site-title"><a href="<?php echo esc_url( home_url( '/' ) ); ?>" rel="home"><?php bloginfo( 'name' )?></a></h1>
 				<h2 class="site-description"><?php bloginfo( 'description' ); ?></h2>
 				</div>
