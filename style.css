@@ -85,7 +85,7 @@ a:focus {
 }
 
 .currentissueheader {
-	grid-column: 6/11;
+	grid-column: 7/11;
 	grid-row: 1/3;
 	display: grid;
 	grid-template-rows: 1fr 1fr;
@@ -113,6 +113,7 @@ a:focus {
 
 .currentissueheader img {
 	max-height: 20vh;
+	
 }
 
 .currentissueheader {
@@ -137,4 +138,8 @@ a:focus {
 .white{
 	background-color: white;
 	color: black;
+}
+
+.navbar-default .navbar-nav>li>a {
+	color: white;
 }
