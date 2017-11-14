@@ -64,9 +64,11 @@
         $navbar .= '</div><!-- navbar-header -->';
 
 		// Display the desktop navbar
-		$navbar .= '<div class="navbar-collapse collapse"> <div class="site-logo-onscroll">';
-        $navbar .=  ' <a href="<?php echo esc_url( home_url( '/' ) ); ?>" rel="home"><img src="<?php echo header_image() ?>" alt="logo" id="wanderwomenlogoonscroll"></a>';
-		$navbar .=  '		</div>';
+		$navbar .= '<div class="navbar-collapse collapse">' ?>
+		<div class="site-logo-onscroll"> 
+       <a href="<?php echo esc_url( home_url( '/' ) ); ?>" rel="home"><img src="<?php echo header_image() ?>" alt="logo" id="wanderwomenlogoonscroll"></a>;
+		</div>
+		<?
 		$navbar .= wp_nav_menu( 
 			array(  'theme_location' => 'primary',
 			//'container_class' => 'navbar-collapse collapse', //<nav> or <div> class
