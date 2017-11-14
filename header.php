@@ -53,14 +53,14 @@
 		<?php
 		// Collapsed navbar menu toggle
 		global $xsbf_theme_options;
-		$navbar = '<div class="navbar navbar-fixed-top ' . $xsbf_theme_options['navbar_classes'] . '">'
+		$navbar = '<div class="navbar ' . $xsbf_theme_options['navbar_classes'] . ' navbar-fixed-top">'
 			.'<div class="container">'
         	.'<div class="navbar-header">'
 			.' <a href="'
 			.esc_url( home_url( '/' ) )
-			.'" rel="home"><img src="'
-			.header_image() 
-			.'" alt="logo" id="wanderwomenlogo"></a>'
+			.'" rel="home"><img src="url('
+			.header_image( ) 
+			.')" alt="logo" id="wanderwomenlogo"></a>'
           	.'<button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">'
             .'<span class="icon-bar"></span>'
             .'<span class="icon-bar"></span>'
@@ -72,9 +72,6 @@
 		$navbar .= '<a class="navbar-brand" href="'
 			.esc_url( home_url( '/' ) )
 			.'" rel="home">'
-			.'<img src="'
-			.header_image()
-			.'" alt="logo" id="wanderwomenlogoonscroll">'
 			.'</a>';
 		
         $navbar .= '</div><!-- navbar-header -->';
