@@ -44,9 +44,10 @@
 		<?php
 		// Collapsed navbar menu toggle
 		global $xsbf_theme_options;
-		$navbar = '<div class="navbar ' . $xsbf_theme_options['navbar_classes'] . '">'
+		$navbar = '<div class="navbar navbar-fixed-top ' . $xsbf_theme_options['navbar_classes'] . '">'
 			.'<div class="container">'
         	.'<div class="navbar-header">'
+			.' <a href="<?php echo esc_url( home_url( '/' ) ); ?>" rel="home"><img src="<?php echo header_image() ?>" alt="logo" id="wanderwomenlogo"></a>'
           	.'<button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">'
             .'<span class="icon-bar"></span>'
             .'<span class="icon-bar"></span>'
@@ -58,21 +59,23 @@
 		$navbar .= '<a class="navbar-brand" href="'
 			.esc_url( home_url( '/' ) )
 			.'" rel="home">'
-			.get_bloginfo( 'name' )
+			.'<img src=";
+			.header_image()
+			." alt="logo" id="wanderwomenlogoonscroll">';
 			.'</a>';
 		
         $navbar .= '</div><!-- navbar-header -->';
 
 		// Display the desktop navbar
 		$navbar .= '<div class="navbar-collapse collapse">' ?>
-		<div class="site-logo-onscroll"> 
-       <a href="<?php echo esc_url( home_url( '/' ) ); ?>" rel="home"><img src="<?php echo header_image() ?>" alt="logo" id="wanderwomenlogoonscroll"></a>;
-		</div>
+		
+       
+	
 		<?
 		$navbar .= wp_nav_menu( 
 			array(  'theme_location' => 'primary',
 			//'container_class' => 'navbar-collapse collapse', //<nav> or <div> class
-			'menu_class' => 'nav navbar-nav navbar-fixed-top', //<ul> class
+			'menu_class' => 'nav navbar-nav', //<ul> class
 			'walker' => new wp_bootstrap_navwalker(),
 			'fallback_cb' => 'wp_bootstrap_navwalker::fallback',
 			'echo'	=> false
