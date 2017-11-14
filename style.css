@@ -111,6 +111,7 @@ a:focus {
 	padding-top: 20px;
 	padding-bottom: 20px;
 	border-bottom: 3px black solid;
+	margin-bottom: 20px;
 }
 
 #site-branding .container {
