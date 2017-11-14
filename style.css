@@ -89,7 +89,8 @@ a:focus {
 	grid-row: 1/3;
 	display: grid;
 	grid-template-rows: 1fr 1fr;
-	grid-template-columns: 1fr 1fr 1fr;
+	grid-template-columns: 1fr 1fr;
+	grid-gap: 20px;
 }
 
 .issuecover {
@@ -98,7 +99,7 @@ a:focus {
 }
 
 .currentissuegroup {
-	grid-column: 3/4;
+	grid-column: 2/3;
 	grid-row: 1/3;
 }
 
