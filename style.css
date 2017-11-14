@@ -193,6 +193,11 @@ a:focus {
 	font-family: GraphikRegular;
 }
 
+button {
+	background-color: #0da5dc;
+	border-color: #0da5dc;
+}
+
 /* featured styles */
 
 #featured {
