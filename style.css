@@ -146,10 +146,14 @@ a:focus {
 }
 
 .navbar-default .navbar-nav>li>a {
-	color: white;
+	
 	font-family: GraphikRegular; 
+	transition: .5s ease;
 }
 
+.whitelink {
+	color: white;
+}
 .blacklink {
 	color: black; !important
 }
