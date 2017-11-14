@@ -21,9 +21,9 @@
 	$(document).scroll(function() {
   var y = $(this).scrollTop();
   if (y > 300) {
-    $('.site-logo-onscroll').fadeIn();
+    $('#wanderwomenlogoonscroll').fadeIn();
   } else {
-    $('.site-logo-onscroll').fadeOut();
+    $('#wanderwomenlogoonscroll').fadeOut();
   }
 });
 	</script>
@@ -60,7 +60,7 @@
 			. esc_url( home_url( '/' ))
 			. '" rel="home"><img src="'
 			. get_header_image()
-			. ' " alt="logo" id="wanderwomenlogo"></a>'
+			. ' " alt="logo" id="wanderwomenlogoonscroll"></a>'
 		. '<button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">'
             .'<span class="icon-bar"></span>'
             .'<span class="icon-bar"></span>'
