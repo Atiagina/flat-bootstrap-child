@@ -228,3 +228,14 @@ button {
 	grid-column: 7/10;
 	z-index: 110;
 }
+
+#currentissue {
+	height: 100%;
+	display: flex;
+	justify-content: center;
+	
+}
+
+#currentissue img {
+	max-width: 50%;
+}
