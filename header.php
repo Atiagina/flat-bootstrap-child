@@ -59,9 +59,9 @@
 		$navbar .= '<a class="navbar-brand" href="'
 			.esc_url( home_url( '/' ) )
 			.'" rel="home">'
-			.'<img src=";
+			.'<img src="'
 			.header_image()
-			." alt="logo" id="wanderwomenlogoonscroll">';
+			.'" alt="logo" id="wanderwomenlogoonscroll">'
 			.'</a>';
 		
         $navbar .= '</div><!-- navbar-header -->';
