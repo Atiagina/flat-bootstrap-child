@@ -146,12 +146,11 @@
 			while ( $query->have_posts() ) {
 				$query->the_post();
                 $url = wp_get_attachment_url( get_post_thumbnail_id($post->ID) );
-              ;
-                echo '<div class="currentissuegroup"> <img src="';
+                echo '<img src="';
                 echo $url;
-                echo '" class="img-responsive">';
+                echo '" class="img-responsive issuecover">';
                
-				echo ' <h3>' . get_the_title() . '</h3>';
+				echo '<div class="currentissuegroup">  <h3>' . get_the_title() . '</h3>';
 				
 				the_content();
 				echo '</div>';

@@ -87,6 +87,19 @@ a:focus {
 .currentissueheader {
 	grid-column: 6/10;
 	grid-row: 1/3;
+	display: grid;
+	grid-template-rows: 1fr 1fr;
+	grid-template-columns: 1fr 1fr;
+}
+
+.issuecover {
+	grid-column: 1/2;
+	grid-row: 1/3;
+}
+
+.currentissuegroup {
+	grid-column: 2/3;
+	grid-row: 1/3;
 }
 
 .navbar.navbar-fixed-top {
