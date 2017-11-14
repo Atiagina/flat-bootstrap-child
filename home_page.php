@@ -29,7 +29,7 @@ get_header(); ?>
 				the_content();
 				echo '<img id="mapofcdmx" src="';
 				$url;
-				echo 'img/cmxmap.png" alt="map of cdmx">';
+				echo '" alt="map of cdmx">';
 			}
 		}
 		/* Restore original Post Data */
