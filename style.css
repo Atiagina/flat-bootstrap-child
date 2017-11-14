@@ -192,3 +192,53 @@ a:focus {
 	text-decoration: underline;
 	font-family: GraphikRegular;
 }
+
+/* featured styles */
+
+#featured {
+	
+	display: grid;
+	grid-template-columns: repeat(10, 1fr);
+	grid-template-rows: auto;
+	height: 100%;
+}
+
+#mapofcdmx {
+	grid-row: 2/10;
+	grid-column: 3/8;
+	z-index: 10;
+	height: 100vh;
+}
+
+#featured h1 {
+	grid-row: 2/3;
+	grid-column: 7/10;
+	font-size: 150px;
+	font-weight: bold;
+	line-height: 110px;
+	z-index: 100;
+}
+
+#featuredtitle {
+	grid-row: 2/3;
+	grid-column: 1/6;
+	z-index: 80;
+}
+
+#featuredtitle h2 {
+	font-size: 40px;
+	transform: rotate(-90deg);
+}
+
+#featured button {
+	grid-row: 6/7;
+	grid-column: 7/8;
+	width: 100px;
+	z-index: 200;
+}
+
+#featured h4 {
+	grid-row: 3/5;
+	grid-column: 7/10;
+	z-index: 110;
+}

@@ -15,7 +15,33 @@ Template Name:Home Page
  */
 
 get_header(); ?>
+<div class="container">
+<div class="row">
+<div id="featured">
+	 <?php 
+		$query = new WP_Query( 'pagename=featured' );
+		// The Loop
+		if ( $query->have_posts() ) {
+			while ( $query->have_posts() ) {
+				$query->the_post();
+                $url = wp_get_attachment_url( get_post_thumbnail_id($post->ID) );
+				
+				the_content();
+				echo '<img id="mapofcdmx" src="';
+				$url;
+				echo 'img/cmxmap.png" alt="map of cdmx">';
+			}
+		}
+		/* Restore original Post Data */
+		wp_reset_postdata();
+		?>
+	
+	
+	</div>
+	</div>
+</div>
 <?php get_sidebar('home'); ?>
+
 
 <div class="container">
 <div class="row">
