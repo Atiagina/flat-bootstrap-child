@@ -106,10 +106,34 @@
                <a href="<?php echo esc_url( home_url( '/' ) ); ?>" rel="home"><img src="<?php echo header_image() ?>" alt="logo" id="wanderwomenlogo"></a>
 					</div>
                 <?php //if ( function_exists( 'jetpack_the_site_logo' ) ) jetpack_the_site_logo(); ?>
-                <div class="site-branding-text col-xs-8">
+                <div class="site-branding-text col-xs-4">
 				<h1 class="site-title"><a href="<?php echo esc_url( home_url( '/' ) ); ?>" rel="home"><?php bloginfo( 'name' )?></a></h1>
 				<h2 class="site-description"><?php bloginfo( 'description' ); ?></h2>
 				</div>
+				
+				<div class="currentissueheader col-xs-4">
+				<?php 
+		$query = new WP_Query( 'pagename=current-issue' );
+		// The Loop
+		if ( $query->have_posts() ) {
+			while ( $query->have_posts() ) {
+				$query->the_post();
+                $url = wp_get_attachment_url( get_post_thumbnail_id($post->ID) );
+              ;
+                echo '<img src="';
+                echo $url;
+                echo '" class="img-responsive">';
+               
+				echo '<h3>' . get_the_title() . '</h3>';
+				
+				the_content();
+				
+			}
+		}
+		/* Restore original Post Data */
+		wp_reset_postdata();
+		?>
+					</div>
 				</div>
 			<?php
 				/*
