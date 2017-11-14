@@ -40,6 +40,29 @@ get_header(); ?>
 	</div>
 	</div>
 </div>
+
+<div class="container">
+<div class="row">
+<div id="currentissue">
+	 <?php 
+		$query = new WP_Query( 'pagename=current' );
+		// The Loop
+		if ( $query->have_posts() ) {
+			while ( $query->have_posts() ) {
+				$query->the_post();
+                $url = wp_get_attachment_url( get_post_thumbnail_id($post->ID) );
+				
+				the_content();
+			}
+		}
+		/* Restore original Post Data */
+		wp_reset_postdata();
+		?>
+	
+	
+	</div>
+	</div>
+</div>
 <?php get_sidebar('home'); ?>
 
 <div class="container">
