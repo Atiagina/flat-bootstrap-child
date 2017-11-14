@@ -32,6 +32,8 @@ Tags: one-column, right-sidebar, left-sidebar, fluid-layout, responsive-layout, 
 body {
 	background-color: white;
 }
+
+
 .content-header {
 	background-color: olive;
 }
@@ -40,6 +42,35 @@ body {
     font-family: GraphikRegular;
     src: url('atiagina.com/fonts/Graphik-Regular.otf');
 }
+
+@font-face {
+    font-family: GraphikBold;
+    src: url('atiagina.com/fonts/Graphik-Bold.otf');
+}
+
+@font-face {
+    font-family: GraphikLight;
+    src: url('atiagina.com/fonts/Graphik-Light.otf');
+}
+
+@font-face {
+    font-family: GraphikExtraLight;
+    src: url('atiagina.com/fonts/Graphik-Extralight.otf');
+}
+
+@font-face {
+    font-family: GraphikMedium;
+    src: url('atiagina.com/fonts/Graphik-Medium.otf');
+}
+
+h1, h2, h3 {
+	font-family: GraphikBold;
+}
+
+h4 {
+	font-family: GraphikMedium;
+}
+
 
 .site-title a {
 	color: olive;
@@ -79,7 +110,7 @@ a:focus {
 	background-color: white;
 	padding-top: 20px;
 	padding-bottom: 20px;
-	border-bottom: 2px black solid;
+	border-bottom: 3px black solid;
 }
 
 #site-branding .container {
