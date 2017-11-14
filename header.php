@@ -103,7 +103,7 @@
 			*/ ?>
 				<div class="container">
                <div class="site-logo col-xs-4">
-               <a href="<?php echo esc_url( home_url( '/' ) ); ?>" rel="home"><img src="url('<?php echo header_image() ?>');" alt="logo" id="wanderwomenlogo"></a>
+               <a href="<?php echo esc_url( home_url( '/' ) ); ?>" rel="home"><img src="'<?php echo header_image() ?>'" alt="logo" id="wanderwomenlogo"></a>
 					</div>
                 <?php //if ( function_exists( 'jetpack_the_site_logo' ) ) jetpack_the_site_logo(); ?>
                 <div class="site-branding-text col-xs-8">
