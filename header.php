@@ -40,7 +40,16 @@
  
 			<h2 class="menu-toggle screen-reader-text sr-only "><?php _e( 'Primary Menu', 'flat-bootstrap' ); ?></h2>
 			<div class="skip-link"><a class="screen-reader-text sr-only" href="#content"><?php _e( 'Skip to content', 'flat-bootstrap' ); ?></a></div>
-
+<?php
+		/**
+		  * CUSTOM HEADER IMAGE DISPLAYS HERE FOR THIS THEME, BUT CHILD THEMES MAY DISPLAY
+		  * IT BELOW THE NAV BAR (VIA CONTENT-HEADER.PHP)
+		  */
+		global $xsbf_theme_options;
+		$custom_header_location = isset ( $xsbf_theme_options['custom_header_location'] ) ? $xsbf_theme_options['custom_header_location'] : 'content-header';
+		if ( $custom_header_location == 'header' ) :
+		?>
+		
 		<?php
 		// Collapsed navbar menu toggle
 		global $xsbf_theme_options;
@@ -93,15 +102,7 @@
 		</div><!-- .navbar -->
 		</nav><!-- #site-navigation -->
 
-		<?php
-		/**
-		  * CUSTOM HEADER IMAGE DISPLAYS HERE FOR THIS THEME, BUT CHILD THEMES MAY DISPLAY
-		  * IT BELOW THE NAV BAR (VIA CONTENT-HEADER.PHP)
-		  */
-		global $xsbf_theme_options;
-		$custom_header_location = isset ( $xsbf_theme_options['custom_header_location'] ) ? $xsbf_theme_options['custom_header_location'] : 'content-header';
-		if ( $custom_header_location == 'header' ) :
-		?>
+		
 			<div id="site-branding" class="site-branding">
 			
 			<?php
