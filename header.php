@@ -57,7 +57,7 @@
 			.'<div class="container">'
         	.'<div class="navbar-header">';
 			echo '<a href="';
-			echo esc_url( home_url( '/' );
+			echo esc_url( home_url( '/' ));
 			echo '" rel="home"><img src="';
 			echo header_image();
 			echo ' " alt="logo" id="wanderwomenlogo"></a>';
