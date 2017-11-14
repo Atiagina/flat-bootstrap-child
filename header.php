@@ -96,7 +96,7 @@
 		$navbar .= wp_nav_menu( 
 			array(  'theme_location' => 'primary',
 			//'container_class' => 'navbar-collapse collapse', //<nav> or <div> class
-			'menu_class' => 'nav navbar-nav', //<ul> class
+			'menu_class' => 'nav navbar-nav navbar-right', //<ul> class
 			'walker' => new wp_bootstrap_navwalker(),
 			'fallback_cb' => 'wp_bootstrap_navwalker::fallback',
 			'echo'	=> false
