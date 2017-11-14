@@ -23,10 +23,11 @@
   var y = $(this).scrollTop();
   if (y > 200) {
     $('.wanderwomenlogoonscroll').fadeIn();
-	$('.navbar-fixed-top').addClass('black');
+	  $('.navbar-fixed-top').removeClass('black');
   } else {
     $('.wanderwomenlogoonscroll').fadeOut();
-	$('.navbar-fixed-top').removeClass('black');
+	
+	$('.navbar-fixed-top').addClass('black');
   }
 });
 	</script>
