@@ -30,7 +30,6 @@
 	  $('.wanderwomenlogoonscroll').removeClass('makevisible');
     $('.wanderwomenlogoonscroll').fadeOut();
 	$('.navbar-fixed-top').removeClass('white');
-	$('.navbar-fixed-top').addClass('black');
   }
 });
 	</script>
@@ -60,7 +59,7 @@
 		<?php
 		// Collapsed navbar menu toggle
 		global $xsbf_theme_options;
-		$navbar = '<div class="navbar ' . $xsbf_theme_options['navbar_classes'] . ' navbar-fixed-top">'
+		$navbar = '<div class="navbar ' . $xsbf_theme_options['navbar_classes'] . ' navbar-fixed-top black">'
 			.'<div class="container">'
         	.'<div class="navbar-header">'
 			. '<a href="'
