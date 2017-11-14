@@ -47,7 +47,11 @@
 		$navbar = '<div class="navbar navbar-fixed-top ' . $xsbf_theme_options['navbar_classes'] . '">'
 			.'<div class="container">'
         	.'<div class="navbar-header">'
-			.' <a href="<?php echo esc_url( home_url( '/' ) ); ?>" rel="home"><img src="<?php echo header_image() ?>" alt="logo" id="wanderwomenlogo"></a>'
+			.' <a href="'
+			.esc_url( home_url( '/' ) )
+			.' rel="home"><img src="'
+			.header_image() 
+			.'alt="logo" id="wanderwomenlogo"></a>'
           	.'<button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">'
             .'<span class="icon-bar"></span>'
             .'<span class="icon-bar"></span>'
