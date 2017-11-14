@@ -234,16 +234,17 @@ button {
 	display: flex;
 	justify-content: center;
 	align-items: center;
-	margin-top: 40px;
-	margin-bottom: 40px;
+	
 	padding: 2vh 2vw;
 }
 
 #currentissue img {
-	height: 55vh;
+	height: 60vh;
 	width: auto;
 }
 
 .fluidblack {
+	margin-top: 40px;
+	margin-bottom: 40px;
 	background-color: #0da5dc;
 }
