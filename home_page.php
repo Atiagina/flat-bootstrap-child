@@ -28,7 +28,7 @@ get_header(); ?>
 				
 				the_content();
 				echo '<img id="mapofcdmx" src="';
-				$url;
+				echo $url;
 				echo '" alt="map of cdmx">';
 			}
 		}
