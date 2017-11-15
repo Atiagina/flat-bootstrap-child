@@ -77,6 +77,19 @@ if( function_exists('fa_display_slider') ){
 </div>
 
 <div class="container">
+
+<div class="row">
+
+<?php if( get_field('image') ): ?>
+
+	<img src="<?php the_field('image'); ?>" />
+
+<?php endif; ?>
+
+	</div>
+</div>
+
+<div class="container">
 <div class="row">
 <h2>Tips</h2>
 <?php $custom_query = new
