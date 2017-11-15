@@ -80,9 +80,9 @@ if( function_exists('fa_display_slider') ){
 
 <div class="row">
 
-<?php if( get_field('image') ): ?>
+<?php if( get_field('hero_image') ): ?>
 
-	<img src="<?php the_field('image'); ?>" />
+	<img src="<?php the_field('hero_image'); ?>" />
 
 <?php endif; ?>
 
