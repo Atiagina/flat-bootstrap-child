@@ -251,6 +251,6 @@ button {
 	background-color: #0da5dc;
 }
 
-#sidebar-pagebottom img {
+#sidebar-pagebottom aside .container img {
 	max-width: 40vw;
 }
