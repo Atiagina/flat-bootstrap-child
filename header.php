@@ -134,6 +134,11 @@
 				<div class="container">
                <div class="site-logo">
                <a href="<?php echo esc_url( home_url( '/' ) ); ?>" rel="home"><img src="<?php echo header_image() ?>" alt="logo" id="wanderwomenlogo"></a>
+               <?php if( get_field('tagline') ): ?>
+
+	<img src="<?php the_field('tagline'); ?>" />
+
+<?php endif; ?>
 					</div>
                 <?php //if ( function_exists( 'jetpack_the_site_logo' ) ) jetpack_the_site_logo(); ?>
                <!--
