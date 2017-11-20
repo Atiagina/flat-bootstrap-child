@@ -10,10 +10,12 @@
  */
 ?>
 	</div><!-- #content -->
-<!--
-	<?php // Page bottom (before footer) widget area 
-	get_sidebar( 'pagebottom' ); 
-	?>
+
+
+<?php // Page bottom (before footer) widget area 
+//	get_sidebar( 'pagebottom' ); 
+?>
+	
 	
 -->
 	<?php // Start the footer area ?>
