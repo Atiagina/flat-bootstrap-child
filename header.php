@@ -136,7 +136,7 @@
                <a href="<?php echo esc_url( home_url( '/' ) ); ?>" rel="home"><img src="<?php echo header_image() ?>" alt="logo" id="wanderwomenlogo"></a>
                <?php if( get_field('tagline') ): ?>
 
-	<img src="<?php the_field('tagline'); ?>" />
+				   <h4><?php the_field('tagline'); ?></h4>
 
 <?php endif; ?>
 					</div>
