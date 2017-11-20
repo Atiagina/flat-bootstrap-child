@@ -15,15 +15,16 @@ Template Name:Home Page
  */
 
 get_header(); ?>
+<?php $query = new WP_Query( 'pagename=featured' );
+		// The Loop
+		if ( $query->have_posts() ) {
+			while ( $query->have_posts() ) {
+					$query->the_post(); ?>
 <div class="container-fluid" style="background-color: <?php the_field('featuredcolor'); ?>" />">
 <div class="row">
 <div id="featured">
 	 <?php 
-		$query = new WP_Query( 'pagename=featured' );
-		// The Loop
-		if ( $query->have_posts() ) {
-			while ( $query->have_posts() ) {
-				$query->the_post();
+		
                 $url = wp_get_attachment_url( get_post_thumbnail_id($post->ID) );
 				
 				the_content();
