@@ -177,8 +177,7 @@ button {
 	border-color: #0da5dc;
 }
 
-button:hover,
-button:focus {
+button:hover, button:focus, html input[type="button"]:hover, html input[type="button"]:focus, input[type="submit"]:hover, input[type="submit"]:focus {
 	background-color: #0e809e; !important
 	border-color: #0e809e; !important
 }
