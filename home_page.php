@@ -20,7 +20,7 @@ get_header(); ?>
 		if ( $query->have_posts() ) {
 			while ( $query->have_posts() ) {
 					$query->the_post(); ?>
-<div class="container-fluid" style="background-color: <?php the_field('featuredcolor'); ?>" />">
+<div class="containe featuredcontainer" style="background-color: <?php the_field('featuredcolor'); ?>" />
 <div class="row">
 <div id="featured">
 	 <?php 
