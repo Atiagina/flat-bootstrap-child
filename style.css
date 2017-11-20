@@ -177,9 +177,10 @@ button {
 	border-color: #0da5dc;
 }
 
-button: hover,
-button: focus {
-	background-color: #0e809e;
+button:hover,
+button:focus {
+	background-color: #0e809e; !important
+	border-color: #0e809e; !important
 }
 
 /* featured styles */
