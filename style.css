@@ -178,6 +178,8 @@ button {
 }
 
 button:hover, button:focus, html input[type="button"]:hover, html input[type="button"]:focus, input[type="submit"]:hover, input[type="submit"]:focus {
+	background-color: #0da5dc; !important
+	border-color: #0da5dc; !important
 	box-shadow: 1px 1px 1px grey;
 }
 
