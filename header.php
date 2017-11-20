@@ -157,6 +157,7 @@
 				echo '<div class="currentissuegroup">  <h3>' . get_the_title() . '</h3>';
 				
 				the_content();
+				echo the_field('button');
 				echo '</div>';
 			}
 		}
