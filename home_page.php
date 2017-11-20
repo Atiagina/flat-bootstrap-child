@@ -15,7 +15,7 @@ Template Name:Home Page
  */
 
 get_header(); ?>
-<div class="container">
+<div class="container-fluid" style="background-color: <?php the_field('featuredcolor'); ?>" />">
 <div class="row">
 <div id="featured">
 	 <?php 
