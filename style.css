@@ -178,8 +178,8 @@ button {
 }
 
 button:hover, button:focus, html input[type="button"]:hover, html input[type="button"]:focus, input[type="submit"]:hover, input[type="submit"]:focus {
-	background-color: #0e809e; !important
-	border-color: #0e809e; !important
+	background-color: #1b75bc; !important
+	border-color: #1b75bc; !important
 }
 
 /* featured styles */
