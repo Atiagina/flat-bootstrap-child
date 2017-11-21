@@ -370,10 +370,11 @@ margin-top: 20px;
 }
 
 .linebackground {
-	background-image: url(http://wanderwomen.atiagina.com/wp-content/uploads/2017/11/line.png);
+	background-image: url('http://wanderwomen.atiagina.com/wp-content/uploads/2017/11/line.png');
 	background-size: 5px 5px;
 	overflow: hidden;
 background-repeat: repeat;
 background-position: right top;
+	padding-right: 5px;
 	
 }
