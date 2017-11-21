@@ -65,7 +65,7 @@ get_header(); ?>
 	</div>
 </div>
 
-<div class="container-fluid country-cluid">
+<div class="container-fluid country-fluid">
 <div class="row">
 <div id="featured-country">
 	 <?php 
