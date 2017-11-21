@@ -104,7 +104,35 @@ get_header(); ?>
 <div class="container-fluid">
 <h2 class="sectionheadline">[ people ]</h2>
 <div class="row">
-<?php get_sidebar('home'); ?>
+
+<?php $custom_query = new
+WP_Query('posts_per_page=3&category_name=people');
+while($custom_query->have_posts()) : $custom_query->the_post(); ?>
+<!--before you start showing me a post, wrap it in a div with a
+bootstrap class-->
+<div class="col-xs-12 col-sm-3 push <?php post_class(); ?>" id="post-<?php the_ID(); ?>">
+
+<?php $url = wp_get_attachment_url( get_post_thumbnail_id($post->ID) );
+				
+				echo '<img class="sectionimg" src="';
+				echo $url;
+				echo '">'; ?>
+<!--get the post title, wrap it in an h3 tag and make it a hyper link to
+the actual post-->
+<h3><a href="<?php the_permalink(); ?>"><?php
+the_title(); ?></a></h3>
+
+<!--get the author's name-->
+
+<!--get the excerpt-->
+<?php the_excerpt(); ?>
+	</div>
+
+<?php endwhile; ?>
+<?php wp_reset_postdata(); // reset the query ?>
+
+<!--loop will go here-->
+
 	</div>
 </div>
 
@@ -122,15 +150,21 @@ if( function_exists('fa_display_slider') ){
 	</div>
 </div>
 
+<?php /*?>
+
 <div class="container">
 
 <div class="row">
 
+
+
 <?php if( get_field('hero_image') ): ?>
 
-	<img src="<?php the_field('hero_image'); ?>" />
+	// <img src="<?php the_field('hero_image'); ?>" />
 
 <?php endif; ?>
+
+<?php */?>
 
 	</div>
 </div>
