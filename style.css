@@ -418,7 +418,7 @@ background-position: right top;
   padding: 24px 32px;
 }
 
-.fa-read-more {
+.light .nivo-caption a.fa-read-more {
 	background: #0da5dc;
 border-radius: 5px;
 padding: 5px 10px;
