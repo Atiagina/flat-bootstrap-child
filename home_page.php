@@ -137,6 +137,27 @@ the_title(); ?></a></h3>
 </div>
 
 
+
+
+<div class="container-fluid">
+
+<div class="row">
+
+
+
+<?php if( get_field('ad-banner-1') ): ?>
+
+	<img src="<?php the_field('ad-banner-1'); ?>" />
+
+<?php endif; ?>
+
+
+
+	</div>
+</div>
+
+
+
 <div class="container-fluid">
 <h2 class="sectionheadline">[ pictures ]</h2>
 <div class="row">
