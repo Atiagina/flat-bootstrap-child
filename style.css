@@ -282,6 +282,8 @@ button:hover, button:focus, html input[type="button"]:hover, html input[type="bu
 	margin-left: 0;
 	margin-top: 0;
 	padding-left: 0;
+	display: flex;
+	justify-content: center;
 }
 
 #sidebar-pagebottom aside .container img {
