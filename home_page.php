@@ -144,7 +144,7 @@ the_title(); ?></a></h3>
 <div class="row">
 
 <?php $custom_query = new
-WP_Query('posts_per_page=3&category_name=people');
+WP_Query('pagename=advertising');
 while($custom_query->have_posts()) : $custom_query->the_post(); ?>
                <img src="<?php the_field('ad-banner-1'); ?> " />
 		
@@ -184,7 +184,7 @@ bootstrap class-->
 
 <?php $url = wp_get_attachment_url( get_post_thumbnail_id($post->ID) );
 				
-				echo '<img class="sectionimg" src="';
+				echo '<img class="sectionimg linebackground" src="';
 				echo $url;
 				echo '">'; ?>
 <!--get the post title, wrap it in an h3 tag and make it a hyper link to
@@ -220,7 +220,7 @@ bootstrap class-->
 
 <?php $url = wp_get_attachment_url( get_post_thumbnail_id($post->ID) );
 				
-				echo '<img class="sectionimg" src="';
+				echo '<img class="sectionimg linebackground" src="';
 				echo $url;
 				echo '">'; ?>
 <!--get the post title, wrap it in an h3 tag and make it a hyper link to
