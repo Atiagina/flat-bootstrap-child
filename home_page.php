@@ -208,7 +208,7 @@ bootstrap class-->
 the actual post-->
 <h3><a href="<?php the_permalink(); ?>"><?php
 the_title(); ?></a></h3>
-
+	<h4><?php the_field('post-tagline'); ?></h4>
 <!--get the author's name-->
 
 <!--get the excerpt-->
