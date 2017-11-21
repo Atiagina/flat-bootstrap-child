@@ -65,7 +65,7 @@ get_header(); ?>
 	</div>
 </div>
 
-<div class="container-fluid">
+<div class="container">
 <div class="row">
 <div id="featured-country">
 	 <?php 
@@ -80,14 +80,14 @@ get_header(); ?>
 				echo $url;
 				echo '" alt="map of cdmx"></div>';
 				echo '<div class="col-xs-6 featured-country-text">';
-				echo '<h3><a href="';
+				echo '<h1><a href="';
 				the_permalink();
 				echo '">';
 				the_title(); 
-				echo '</a></h3>';
-				echo '<h5>';
+				echo '</a></h1>';
+				echo '<h4>';
 				the_field('featured-tagline');
-				echo '</h5>';
+				echo '</h4>';
 				the_content();
 				echo '</div>';
 				

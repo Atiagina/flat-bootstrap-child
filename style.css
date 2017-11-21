@@ -253,6 +253,7 @@ button:hover, button:focus, html input[type="button"]:hover, html input[type="bu
 
 .featured-country-text {
 	display: flex;
+	flex-direction: column;
 	justify-content: center;
 	align-items: center;
 }
