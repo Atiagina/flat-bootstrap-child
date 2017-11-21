@@ -43,7 +43,7 @@ body {
 	flex-direction: column;
 	padding-left: 0; !important
 	padding-right: 0; !important
-	margin-right:0;
+	margin-right:0; !important
 }
 
 .container-fluid .row {
