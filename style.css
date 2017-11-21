@@ -30,7 +30,7 @@ Tags: one-column, right-sidebar, left-sidebar, fluid-layout, responsive-layout, 
 /* Change the content (page) header to dark blue. */
 #page {
 	width: 100%;
-	max-wdth: 100%;
+	max-width: 100%;
 }
 }
 body {
