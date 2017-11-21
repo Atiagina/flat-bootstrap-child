@@ -64,6 +64,44 @@ get_header(); ?>
 	</div>
 	</div>
 </div>
+
+<div class="container-fluid">
+<div class="row">
+<div id="featured-country">
+	 <?php 
+		$query = new WP_Query( 'pagename=featured-country' );
+		// The Loop
+		if ( $query->have_posts() ) {
+			while ( $query->have_posts() ) {
+				$query->the_post();
+                $url = wp_get_attachment_url( get_post_thumbnail_id($post->ID) );
+				echo '<div class="col-xs-6">';
+				echo '<img id="featured-country-img" src="';
+				echo $url;
+				echo '" alt="map of cdmx"></div>';
+				echo '<div class="col-xs-6">';
+				echo '<img id="featured-country-img" src="';
+				echo '<h3><a href="';
+				the_permalink();
+				echo '">';
+				the_title(); 
+				echo '</a></h3>';
+				echo '<h5>';
+				the_field('featured-tagline');
+				echo '</h5>';
+				the_content();
+				echo '</div>';
+				
+			}
+		}
+		/* Restore original Post Data */
+		wp_reset_postdata();
+		?>
+	
+	
+	</div>
+	</div>
+</div>
 <?php get_sidebar('home'); ?>
 
 <div class="container">
