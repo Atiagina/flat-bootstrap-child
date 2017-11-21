@@ -8,7 +8,7 @@ PostType Page Template: People
 get_header(); ?>
 
 <?php get_template_part( 'content', 'header' ); ?>
-
+<h1>People template</h1>
 <div class="container">
 <div id="main-grid" class="row">
 

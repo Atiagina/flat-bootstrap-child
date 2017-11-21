@@ -8,7 +8,7 @@ PostType Page Template: Pictures
 get_header(); ?>
 
 <?php get_template_part( 'content', 'header' ); ?>
-
+<h1>Pictures template</h1>
 <div class="container">
 <div id="main-grid" class="row">
 
