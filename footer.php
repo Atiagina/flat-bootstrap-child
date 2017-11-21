@@ -24,15 +24,15 @@
 	<?php // Footer "sidebar" widget area (1 to 4 columns supported)
 	get_sidebar( 'footer' );
 	?>
-	<div class="footer-info">
-	<div class="socialmedia-row">
+	<div class="footer-info container-fluid">
+	<div class="row socialmedia-row">
 	<i class="fa fa-facebook-square" aria-hidden="true"></i> 
 	<i class="fa fa-facebook-square" aria-hidden="true"></i>
 	<i class="fa fa-facebook-square" aria-hidden="true"></i>
 	<i class="fa fa-facebook-square" aria-hidden="true"></i>
 	<i class="fa fa-facebook-square" aria-hidden="true"></i>
 		</div>
-	<div class="subscribe-row">
+	<div class="row subscribe-row">
 	
 		</div>
 		</div>
