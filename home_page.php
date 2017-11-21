@@ -101,11 +101,18 @@ get_header(); ?>
 	</div>
 	</div>
 </div>
-<?php get_sidebar('home'); ?>
-
-<div class="container">
+<div class="container-fluid">
+<h2 class="sectionheadline">[ people ]</h2>
 <div class="row">
-<h2>[ pictures ]</h2>
+<?php get_sidebar('home'); ?>
+	</div>
+</div>
+
+
+<div class="container-fluid">
+<h2 class="sectionheadline">[ pictures ]</h2>
+<div class="row">
+
 <!-- slide show goes here -->
 <?php
 if( function_exists('fa_display_slider') ){

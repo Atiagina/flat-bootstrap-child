@@ -304,4 +304,7 @@ button:hover, button:focus, html input[type="button"]:hover, html input[type="bu
 	padding: 20px;
 		border-bottom: 3px black solid;
 	color: black;
+	margin: 60px 0;
+	text-align: center;
+	width: 100%;
 }
