@@ -144,17 +144,19 @@ WP_Query('posts_per_page=4&category_name=tips');
 while($custom_query->have_posts()) : $custom_query->the_post(); ?>
 <!--before you start showing me a post, wrap it in a div with a
 bootstrap class-->
-<div class="col-md-3 push <?php post_class(); ?>" id="post-<?php the_ID(); ?>">
-<!--get the thumbnail; you created this with 'featured image'-->
-<?php the_post_thumbnail (medium); ?>
+<div class="col-xs-12 col-sm-3 push <?php post_class(); ?>" id="post-<?php the_ID(); ?>">
+<?php $url = wp_get_attachment_url( get_post_thumbnail_id($post->ID) );
+				
+				echo '<img class="sectionimg" src="';
+				echo $url;
+				echo '"></div>'; ?>
 <!--get the post title, wrap it in an h3 tag and make it a hyper link to
 the actual post-->
 <h3><a href="<?php the_permalink(); ?>"><?php
 the_title(); ?></a></h3>
-<!--get the date. M d, Y – will output – Nov 06, 2015-->
-<?php echo '<p class="date">' . date('l, F jS') . '</p>'; ?>
+
 <!--get the author's name-->
-<p class="author"><?php the_author(); ?></p>
+
 <!--get the excerpt-->
 <?php the_excerpt(); ?>
 	</div>
