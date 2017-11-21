@@ -297,3 +297,10 @@ button:hover, button:focus, html input[type="button"]:hover, html input[type="bu
 #sidebar-pagebottom aside .container img {
 	max-width: 40vw;
 }
+
+.sectionheadline {
+	border-top: 3px black solid;
+	padding: 20px;
+		border-bottom: 3px black solid;
+	color: black;
+}

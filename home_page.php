@@ -128,9 +128,9 @@ if( function_exists('fa_display_slider') ){
 	</div>
 </div>
 
-<div class="container">
+<div class="container-fluid">
 <div class="row">
-<h2>[ tips ]</h2>
+<h2 class="sectionheadline">[ tips ]</h2>
 <?php $custom_query = new
 WP_Query('posts_per_page=4&category_name=tips');
 while($custom_query->have_posts()) : $custom_query->the_post(); ?>
