@@ -1,7 +1,7 @@
 <?php
 /*
 
-PostType Page Template: Pictures
+PostType Page Template: Interview
 
  */
 
