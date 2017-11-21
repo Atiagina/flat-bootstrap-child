@@ -37,6 +37,9 @@ body {
 	background-color: white;
 }
 
+.container-fluid .row {
+	max-width: 1600px;
+}
 
 .content-header {
 	background-color: olive;
