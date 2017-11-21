@@ -216,6 +216,7 @@ the_title(); ?></a></h3>
 
 <div class="row">
  <?php 
+	
 		$query = new WP_Query( 'pagename=advertising' );
 		// The Loop
 		if ( $query->have_posts() ) {

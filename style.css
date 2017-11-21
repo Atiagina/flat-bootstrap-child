@@ -47,7 +47,10 @@ body {
 
 .container-fluid .row {
 	max-width: 1600px;
-
+margin-left: 0px;
+	margin-right: 0px;
+	padding-left:10px;
+	padding-right: 10px;
 }
 
 .content-header {
