@@ -17,7 +17,7 @@
 ?>
 	
 	
--->
+
 	<?php // Start the footer area ?>
 	<footer id="colophon" class="site-footer" role="contentinfo">
 		

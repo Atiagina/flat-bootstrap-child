@@ -226,21 +226,21 @@ the_title(); ?></a></h3>
 
 
 
-<div class="container">
+<div class="container-fluid">
 
-<div class="row">
-
+<!--<div class="row">
+-->
 
 
 <?php if( get_field('hero_image') ): ?>
 
-	// <img src="<?php the_field('hero_image'); ?>" />
+	<img src="<?php the_field('hero_image'); ?>" />
 
 <?php endif; ?>
 
 
-
-	</div>
+<!--
+	</div>-->
 </div>
 
 
