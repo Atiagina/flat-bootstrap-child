@@ -37,8 +37,14 @@ body {
 	background-color: white;
 }
 
+.container-fluid {
+	display: flex;
+	justify-content: center;
+}
+
 .container-fluid .row {
 	max-width: 1600px;
+
 }
 
 .content-header {
