@@ -255,11 +255,15 @@ button:hover, button:focus, html input[type="button"]:hover, html input[type="bu
 	width: auto;
 }
 
+.featured-country div {
+	margin: 0;
+}
 .featured-country-text {
 	display: flex;
 	flex-direction: column;
 	justify-content: center;
 	align-items: center;
+	padding-right: 20px;
 }
 
 .fluidblack {
