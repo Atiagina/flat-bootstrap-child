@@ -384,14 +384,11 @@ background-position: right top;
 
 .overlaycontainer {
     position: relative;
-    width: 50%;
 }
 
 .overlayimage {
   opacity: 1;
-  display: block;
-  width: 100%;
-  height: auto;
+ 
   transition: .5s ease;
   backface-visibility: hidden;
 }
@@ -415,8 +412,8 @@ background-position: right top;
 }
 
 .overlaytext {
-  background-color: #4CAF50;
-  color: white;
+  background-color: white;
+  color: black;
   font-size: 16px;
   padding: 16px 32px;
 }
