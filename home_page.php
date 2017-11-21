@@ -110,7 +110,7 @@ WP_Query('posts_per_page=3&category_name=people');
 while($custom_query->have_posts()) : $custom_query->the_post(); ?>
 <!--before you start showing me a post, wrap it in a div with a
 bootstrap class-->
-<div class="col-xs-12 col-sm-4 push <?php post_class(); ?>" id="post-<?php the_ID(); ?>">
+<div class="col-xs-12 col-sm-4 push sectionpost <?php post_class(); ?>" id="post-<?php the_ID(); ?>">
 
 <?php $url = wp_get_attachment_url( get_post_thumbnail_id($post->ID) );
 				

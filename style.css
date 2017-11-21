@@ -342,3 +342,9 @@ button:hover, button:focus, html input[type="button"]:hover, html input[type="bu
 .sectionimg {
 	max-height: 400px;
 }
+
+.sectionpost {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+}
