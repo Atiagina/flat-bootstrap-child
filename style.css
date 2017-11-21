@@ -257,18 +257,18 @@ button:hover, button:focus, html input[type="button"]:hover, html input[type="bu
 
 #featured-country div {
 	margin: 0;
+	padding: 0;
 }
 .featured-country-text {
 	display: flex;
 	flex-direction: column;
 	justify-content: center;
 	align-items: center;
-	padding-right: 20px;
+	margin-right: 40px;
 }
 
 .fluidblack {
 	margin-top: 40px;
-	margin-bottom: 40px;
 	background-color: #0da5dc;
 }
 
