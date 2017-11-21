@@ -9,6 +9,7 @@ get_header(); ?>
 
 <?php get_template_part( 'content', 'header' ); ?>
 <h1>Artists template</h1>
+<img src="<?php the_field('hero_image'); ?>" alt="" >
 <div class="container">
 <div id="main-grid" class="row">
 
