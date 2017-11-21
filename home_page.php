@@ -152,6 +152,8 @@ the_title(); ?></a></h3>
                echo '<img src="';
 				the_field('ad-banner-1');
 				echo '" />';
+			}
+		}
 		/* Restore original Post Data */
 		wp_reset_postdata();
 		?>
