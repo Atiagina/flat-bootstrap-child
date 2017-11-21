@@ -143,21 +143,13 @@ the_title(); ?></a></h3>
 
 <div class="row">
 
-<?php 
-		$query = new WP_Query( 'pagename=advertising' );
-		// The Loop
-		if ( $query->have_posts() ) {
-			while ( $query->have_posts() ) {
-				$query->the_post();
-               echo '<img src="';
-				the_field('ad-banner-1');
-				echo '" />';
-			}
-		}
-	endwhile;
-		/* Restore original Post Data */
-		wp_reset_postdata();
-		?>
+<?php $custom_query = new
+WP_Query('posts_per_page=3&category_name=people');
+while($custom_query->have_posts()) : $custom_query->the_post(); ?>
+               <img src="<?php the_field('ad-banner-1'); ?> " />
+		
+		<?php endwhile; ?>
+<?php wp_reset_postdata(); // reset the query ?>
 
 	</div>
 </div>
