@@ -75,11 +75,11 @@ get_header(); ?>
 			while ( $query->have_posts() ) {
 				$query->the_post();
                 $url = wp_get_attachment_url( get_post_thumbnail_id($post->ID) );
-				echo '<div class="col-xs-6">';
+				echo '<div class="col-xs-12 col-sm-8">';
 				echo '<img id="featured-country-img" src="';
 				echo $url;
 				echo '" alt="map of cdmx"></div>';
-				echo '<div class="col-xs-6 featured-country-text">';
+				echo '<div class="col-xs-12 col-sm-4 featured-country-text">';
 				echo '<h1><a href="';
 				the_permalink();
 				echo '">';
