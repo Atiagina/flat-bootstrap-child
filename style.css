@@ -251,6 +251,12 @@ button:hover, button:focus, html input[type="button"]:hover, html input[type="bu
 	width: auto;
 }
 
+.featured-country-text {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
 .fluidblack {
 	margin-top: 40px;
 	margin-bottom: 40px;

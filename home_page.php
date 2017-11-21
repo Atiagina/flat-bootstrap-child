@@ -79,8 +79,7 @@ get_header(); ?>
 				echo '<img id="featured-country-img" src="';
 				echo $url;
 				echo '" alt="map of cdmx"></div>';
-				echo '<div class="col-xs-6">';
-				echo '<img id="featured-country-img" src="';
+				echo '<div class="col-xs-6 featured-country-text">';
 				echo '<h3><a href="';
 				the_permalink();
 				echo '">';
