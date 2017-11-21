@@ -360,10 +360,11 @@ button:hover, button:focus, html input[type="button"]:hover, html input[type="bu
 	border-top: 3px black solid;
 	padding: 20px;
 		border-bottom: 3px black solid;
-	margin: 20px;
+margin-top: 20px;
+	margin-bottom: 20px;
 }
 
-.socialmedia-row {
+.row.socialmedia-row {
 	display: flex;
 	flex-direction: row;
 	justify-content: space-between;
