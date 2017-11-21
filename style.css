@@ -28,7 +28,11 @@ Tags: one-column, right-sidebar, left-sidebar, fluid-layout, responsive-layout, 
 */
 
 /* Change the content (page) header to dark blue. */
-
+#page {
+	width: 100%;
+	max-wdth: 100%;
+}
+}
 body {
 	background-color: white;
 }
