@@ -348,3 +348,8 @@ button:hover, button:focus, html input[type="button"]:hover, html input[type="bu
 	flex-direction: column;
 	align-items: center;
 }
+
+.after-footer {
+	max-width: 100%;
+	bckground: black;
+}
