@@ -75,7 +75,7 @@ get_header(); ?>
 			while ( $query->have_posts() ) {
 				$query->the_post();
                 $url = wp_get_attachment_url( get_post_thumbnail_id($post->ID) );
-				echo '<div class="col-xs-12 col-sm-8">';
+				echo '<div class="col-xs-12 col-sm-8 featured-country-img">';
 				echo '<img id="featured-country-img" src="';
 				echo $url;
 				echo '" alt="map of cdmx"></div>';

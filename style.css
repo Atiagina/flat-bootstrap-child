@@ -255,14 +255,13 @@ button:hover, button:focus, html input[type="button"]:hover, html input[type="bu
 	width: auto;
 }
 
-#featured-country div {
+.featured-country-img {
 	margin: 0;
 	padding: 0;
 }
 .featured-country-text {
 	display: flex;
 	flex-direction: column;
-	margin: 40px;
 }
 
 .fluidblack {
