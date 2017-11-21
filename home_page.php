@@ -147,10 +147,8 @@ the_title(); ?></a></h3>
 		// The Loop
 		if ( $query->have_posts() ) {
 			while ( $query->have_posts() ) {
-				$query->the_post(); ?>
-              
-               <img src="<?php the_field('ad-banner-1'); ?> " />
-		 <?php
+				$query->the_post(); 
+				the_field('ad-banner-1'); 
 			}
 		}
 		/* Restore original Post Data */
