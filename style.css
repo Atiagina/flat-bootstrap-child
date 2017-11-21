@@ -41,6 +41,8 @@ body {
 	display: flex;
 	align-items: center;
 	flex-direction: column;
+	padding-left: 0;
+	padding-right: 0;
 }
 
 .container-fluid .row {
