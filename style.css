@@ -58,10 +58,7 @@ img {
 	object-fit: contain;
 }
 
-a {
-	color: #0da5dc; !important
 
-}
 
 h1, h2, h3 {
 	font-family: 'Rubik', sans-serif;
@@ -81,12 +78,14 @@ h4 {
  * neat trick with the opacity tag. This simply lightens whatever the link color is. That
  * way we don't need to try to figure out a hover color that looks good. 
  */
+
+
 a {
-	color: #2980b9;
+	color: #0da5dc;
 }
 a:hover,
 a:focus {
-	color: #2980b9;
+	color: #0da5dc;
 	opacity: .75;
 }
 
