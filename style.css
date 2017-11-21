@@ -412,7 +412,7 @@ background-position: right top;
 }
 
 .overlaytext {
-  background-color: white;
+  background-color: none;
   color: black;
   font-size: 16px;
   padding: 16px 32px;
