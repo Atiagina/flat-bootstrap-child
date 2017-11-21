@@ -154,6 +154,7 @@ the_title(); ?></a></h3>
 				echo '" />';
 			}
 		}
+	endwhile;
 		/* Restore original Post Data */
 		wp_reset_postdata();
 		?>
