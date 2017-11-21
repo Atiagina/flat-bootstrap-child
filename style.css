@@ -58,6 +58,11 @@ img {
 	object-fit: contain;
 }
 
+a {
+	color: #0da5dc; !important
+
+}
+
 h1, h2, h3 {
 	font-family: 'Rubik', sans-serif;
 
