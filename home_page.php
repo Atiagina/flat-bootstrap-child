@@ -142,15 +142,21 @@ the_title(); ?></a></h3>
 <div class="container-fluid">
 
 <div class="row">
-
-<?php $custom_query = new
-WP_Query('pagename=advertising');
-while($custom_query->have_posts()) : $custom_query->the_post(); ?>
+ <?php 
+		$query = new WP_Query( 'pagename=advertising' );
+		// The Loop
+		if ( $query->have_posts() ) {
+			while ( $query->have_posts() ) {
+				$query->the_post(); ?>
+              
                <img src="<?php the_field('ad-banner-1'); ?> " />
-		
-		<?php endwhile; ?>
-<?php wp_reset_postdata(); // reset the query ?>
-
+		 <?php
+			}
+		}
+		/* Restore original Post Data */
+		wp_reset_postdata();
+		?>
+	
 	</div>
 </div>
 
