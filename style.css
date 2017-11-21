@@ -417,3 +417,15 @@ background-position: right top;
   font-size: 24px;
   padding: 24px 32px;
 }
+
+.fa-read-more {
+	background: #0da5dc;
+border-radius: 5px;
+padding: 5px 10px;
+border: none;
+color: white;
+font-weight: 500;
+text-decoration: none;
+white-space: nowrap;
+}
+
