@@ -11,7 +11,7 @@ get_header(); ?>
 
 <div class="container">
 <div id="main-grid" class="row">
-	<div class="interviewgrid">
+	<div class="interviewgrid1">
 	
 	<div class="interviewheadline">
 	<?php the_field('interview-headline'); ?>
@@ -23,6 +23,9 @@ get_header(); ?>
 	<div class="interviewintro">
 	<?php the_field('interview-intro'); ?>
 		</div>
+	</div>
+	
+	<div class="interviewgrid2">
 		
 	<div class="interviewtext1">
 	<?php the_field('interview-text-1'); ?>
@@ -35,6 +38,8 @@ get_header(); ?>
 		<div class="interviewquote">
 		<?php the_field('interview-quote'); ?>
 		</div>
+	</div>
+	<div class="interviewgrid3">
 		
 		<div class="interviewtext2">
 	<?php the_field('interview-text-2'); ?>
@@ -50,6 +55,7 @@ get_header(); ?>
 	<div class="interviewimage3">
 			<img src="<?php the_field('interview-image-3'); ?> " />
 		</div>
+	</div>
 	
 	</div> <!-- end of interviewgrid -->
 	
