@@ -180,10 +180,11 @@ bootstrap class-->
 	<div class="pictureheadline">
 	<?php the_field('picture-title'); ?> 
 	<?php the_field('picture-intro'); ?>
+	<a href="<?php the_permalink(); ?>"><?php the_field('picture-link-text'); ?></a>
 		</div>
 	
 	<div class="pictureintro">
-	<a href="<?php the_permalink(); ?>"><?php the_field('picture-link-text'); ?></a>
+	
 		</div>
 
 
