@@ -179,11 +179,12 @@ bootstrap class-->
 		</div>
 	<div class="pictureheadline">
 	<?php the_field('picture-title'); ?> 
+	<?php the_field('picture-intro'); ?>
 		</div>
 	
 	<div class="pictureintro">
 	<?php the_field('post-tagline'); ?>
-	<a href="<?php the_permalink(); ?>">Read more</a>
+	<a href="<?php the_permalink(); ?>"><?php the_field('picture--link-text'); ?></a>
 		</div>
 
 
