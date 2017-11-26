@@ -53,6 +53,11 @@ margin-left: 0px;
 	padding-right: 10px;
 }
 
+.row {
+	margin-top: 2em;
+	margin-bottom: 2em;
+}
+
 .content-header {
 	background-color: olive;
 }
