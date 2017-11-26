@@ -345,7 +345,9 @@ button:hover, button:focus, html input[type="button"]:hover, html input[type="bu
 }
 
 .sectionimg {
-	max-height: 400px;
+	width: 100%;
+	height: auto;
+	max-height: 350px;
 	padding-right: 5px;
 }
 
