@@ -178,16 +178,16 @@ $args = array('posts_per_page' => 1,
 			  echo '<div class="picturesgrid">';
 			echo '<div class="pictureimg">';
 			echo '<img src="';
-			echo the_field('picture-main'); 
+			the_field('picture-main'); 
 			echo '" />';
 			echo '</div>';
 			echo '<div class="picturetitle">';
 			echo '<h1 class="pictureheadline">';
-			echo the_field('picture-title'); 
+			the_field('picture-title'); 
 			echo '</h1>';
 			echo '<h3><a href="';
-			echo the_permalink(); 
-			echo the_field('picture-link-text');
+			the_permalink(); 
+			the_field('picture-link-text');
 			echo '</a></h3>';
 			echo '</div>';
 			
