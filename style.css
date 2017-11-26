@@ -439,17 +439,17 @@ div.interviewgrid1 {
 	gird-template-rows: auto;
 }
 
-.interviewhero {
+div.interviewgrid1 .interviewhero {
 	grid-columns: 1/6;
 	grid-rows: 2/8;
 }
 
-.interviewheadline {
+div.interviewgrid1 .interviewheadline {
 	grid-columns: 5/9;
 	grid-rows: 1/3;
 }
 
-.interviewintro {
+div.interviewgrid1 .interviewintro {
 	grid-columns: 6/9;
 	grid-rows: 4/8;
 }
