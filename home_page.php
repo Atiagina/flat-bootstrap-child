@@ -194,10 +194,8 @@ $args = array('posts_per_page' => 1,
 			echo '</div>';
 
 }
+	wp_reset_postdata();
 ?> 
-<?php endwhile; ?>
-<?php wp_reset_postdata(); // reset the query ?>
-	</div>
 </div>
 
 
