@@ -167,7 +167,7 @@ the_title(); ?></a></h3>
 <div class="row">
 <div class="picturesgrid">
 			<?php $custom_query = new
-WP_Query(array ( 'orderby' => 'rand', 'categoryname' => 'pictures', 'posts_per_page' => '1' ));
+WP_Query(array ( 'orderby' => 'rand', 'category_name' => 'pictures', 'posts_per_page' => '1' ));
 while($custom_query->have_posts()) : $custom_query->the_post(); ?>
 <!--before you start showing me a post, wrap it in a div with a
 bootstrap class-->
