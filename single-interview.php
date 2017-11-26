@@ -57,11 +57,17 @@ get_header(); ?>
 		<div class="interviewimage2">
 			<img src="<?php the_field('interview-image-2'); ?> " />
 		</div>
+			<div class="interviewquote2">
+		<?php the_field('interview-quote-2'); ?>
+		</div>
+		</div>
 		
-		<div class="interviewtext3">
+		<div class="row">
+		<div class="col-xs-12 col-sm-offset-3 col-sm-6 interviewtext3">
 	<?php the_field('interview-text-3'); ?>
 		</div>
-	<div class="interviewimage3">
+		
+	<div class="col-xs-12 interviewimage3">
 			<img src="<?php the_field('interview-image-3'); ?> " />
 		</div>
 	</div>
