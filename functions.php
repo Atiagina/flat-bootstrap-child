@@ -116,4 +116,4 @@ function xsbf_child_credits ( $site_credits ) {
 
 add_theme_support( 'post-thumbnails' );
 
-add_image_size('thumbnail-news', 350, 350, array('center','center'));
+add_image_size('thumbnail', 350, 350, TRUE);
