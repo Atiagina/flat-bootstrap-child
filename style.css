@@ -436,12 +436,12 @@ div.interviewgrid1 {
 	height: 100%;
 	display: grid;
 	grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
-	grid-template-rows: 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
+	grid-template-rows: 1fr 1fr 1fr 1fr 1fr;
 }
 
 div.interviewgrid1 .interviewhero {
 	grid-column: 1/6;
-	grid-row: 2/8;
+	grid-row: 2/6;
 }
 
 div.interviewgrid1 .interviewheadline {
@@ -450,11 +450,13 @@ div.interviewgrid1 .interviewheadline {
 	font-size: calc(4vw + 4vh + 2vmin);
 	font-weight: bold;
 	z-index: 500;
+	color: darkmagenta;
+	text-shadow: 0px 0px 2px black;
 }
 
 div.interviewgrid1 .interviewintro {
 	grid-column: 6/9;
-	grid-row: 4/8;
+	grid-row: 4/6;
 	font-weight: bold;
 	font-size: calc(16px + 2vh);
 }
