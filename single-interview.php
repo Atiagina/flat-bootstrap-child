@@ -33,7 +33,7 @@ get_header(); ?>
 	
 
 		<div class="row">
-	<div class="col-xs-12 col-sm-offset-2 col-sm-6 interviewtext1">
+	<div class="col-xs-12 col-sm-offset-3 col-sm-6 interviewtext1">
 	<?php the_field('interview-text-1'); ?>
 		</div>
 	</div>
@@ -47,12 +47,13 @@ get_header(); ?>
 		<?php the_field('interview-quote'); ?>
 		</div>
 	</div>
-	<div class="interviewgrid3">
-		
-		<div class="interviewtext2">
+	
+		<div class="row">
+		<div class="col-xs-12 col-sm-offset-3 col-sm-6  interviewtext2">
 	<?php the_field('interview-text-2'); ?>
 		</div>
-		
+	</div>
+	<div class="interviewgrid3">
 		<div class="interviewimage2">
 			<img src="<?php the_field('interview-image-2'); ?> " />
 		</div>

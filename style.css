@@ -458,5 +458,5 @@ div.interviewgrid1 .interviewintro {
 	grid-column: 6/9;
 	grid-row: 4/5;
 	font-weight: bold;
-	font-size: calc(2vw + 2vh + 1vmin);
+	font-size: calc(1vw + 1vh + 1vmin);
 }
