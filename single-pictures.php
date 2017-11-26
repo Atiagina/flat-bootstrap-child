@@ -22,7 +22,7 @@ get_header(); ?>
 	<div class="picturemain">
 	<img src="<?php the_field('picture-main'); ?>" >
 		</div>
-	<div class="picturehealine">
+	<div class="pictureheadline">
 	<?php the_field('picture-title'); ?> 
 		</div>
 	
