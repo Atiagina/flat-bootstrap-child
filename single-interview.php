@@ -7,6 +7,14 @@ PostType Page Template: Interview
 
 get_header(); ?>
 
+<div class="container">
+
+<div class="row">
+<div class="col-xs-12 col-sm-4">
+<?php the_field('category-for-headline'); ?>
+	</div>
+	</div>
+</div>
 
 <div class="container">
 	<div class="interviewgrid1">
