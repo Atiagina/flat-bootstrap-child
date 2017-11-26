@@ -556,6 +556,12 @@ div.interviewgrid3 {
 	font-size: 3em;
 }
 
+.pictureheadline h1 {
+	font-size: calc(4vw + 4vh + 2vmin);
+	line-height: 1.2em;
+	font-weight: bold;
+}
+
 .pictureintro {
 	grid-column: 5/6;
 	grid-row: 3/4;
