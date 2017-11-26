@@ -435,6 +435,7 @@ div.interviewgrid1 {
 	width: 100%;
 	height: 100%;
 	display: grid;
+	margin: 40px 0;
 	grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
 	grid-template-rows: 1fr 1fr 1fr 1fr 1fr;
 }
@@ -462,8 +463,9 @@ div.interviewgrid1 .interviewintro {
 }
 
 .questionstyle {
-	font-size: calc(16px + 1vh);
+	font-size: calc(16px + 2vh);
 	font-weight: bold;
+	color: darkmagenta;
 }
 
 div.interviewgrid2 {
@@ -472,6 +474,7 @@ div.interviewgrid2 {
 	width: 100%;
 	grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
 	grid-template-rows: 1fr 1fr 1fr;
+	margin: 40px 0;
 }
 
 .interviewimage1 {
@@ -481,8 +484,9 @@ div.interviewgrid2 {
 
 .interviewquote {
 	grid-column: 3/6;
-	grid-row: 2/4;
+	grid-row: 2/3;
 	font-size: calc(2vw + 2vh + 1vmin);
 	background-color: rgba(250,250,250,0.5);
+	padding: 10px;
 }
 
