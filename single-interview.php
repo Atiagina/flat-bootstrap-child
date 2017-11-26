@@ -71,6 +71,14 @@ get_header(); ?>
 			<img src="<?php the_field('interview-image-3'); ?> " />
 		</div>
 	</div>
+	<div class="row">
+		<div class="col-xs-12 col-sm-offset-3 col-sm-6 interviewtext4">
+	<?php the_field('interview-text-4'); ?>
+		</div>
+		<div class="col-xs-offset-6 col-xs-6 col-sm-offset-8 col-sm-2">
+		<?php the_field('byline'); ?>
+		</div>
+	</div>
 	
 </div><!-- .container -->
 
