@@ -458,5 +458,30 @@ div.interviewgrid1 .interviewintro {
 	grid-column: 6/9;
 	grid-row: 4/5;
 	font-weight: bold;
-	font-size: calc(1vw + 1vh + 1vmin);
+	font-size: calc(16px + 2vw);
 }
+
+.questionstyle {
+	font-size: calc(16px + 1vw);
+	font-weight: bold;
+}
+
+div.interviewgrid2 {
+	display: grid;
+	height: 100%;
+	width: 100%;
+	grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+	grid-template-rows: 1fr 1fr 1fr;
+}
+
+.interviewimage1 {
+	grid-column: 1/4;
+	grid-row: 1/4;
+}
+
+.interviewquote {
+	grid-column: 3/6;
+	grid-row: 2/4;
+	font-size: calc(2vw + 2vh + 1vmin);
+}
+
