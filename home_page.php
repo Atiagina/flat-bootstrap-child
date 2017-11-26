@@ -165,17 +165,16 @@ the_title(); ?></a></h3>
 <div class="container-fluid">
 <h2 class="sectionheadline">[ pictures ]</h2>
 <div class="row">
-
+<div class="picturesgrid">
 <!-- slide show goes here -->
 <?php
-$args = array('posts_per_page' => 1,
-                    'category_name' => 'pictures');
-        $pictures_query = new WP_query( $args );
+
+        $pictures_query = new WP_query('posts_per_page=1&category_name=pictures&order_by=rand' );
         //the loop
       
         if($pictures_query->have_posts()) {
 			$pictures_query->the_post();
-			  echo '<div class="picturesgrid">';
+			
 			echo '<div class="pictureimg">';
 			echo '<img src="';
 			the_field('picture-main'); 
@@ -190,11 +189,10 @@ $args = array('posts_per_page' => 1,
 			echo the_field('picture-link-text');
 			echo '</a></h3>';
 			echo '</div>';
-			echo '</div>';
-
 }
 	wp_reset_postdata();
 ?> 
+	</div>
 </div>
 </div>
 
