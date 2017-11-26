@@ -165,7 +165,7 @@ the_title(); ?></a></h3>
 <div class="container-fluid">
 <h2 class="sectionheadline">[ pictures ]</h2>
 <div class="row">
-<div class="picturegrid1">
+
 			<?php $custom_query = new
 WP_Query(array ( 'orderby' => 'rand', 'category_name' => 'pictures', 'posts_per_page' => '1' ));
 while($custom_query->have_posts()) : $custom_query->the_post(); ?>
@@ -173,7 +173,7 @@ while($custom_query->have_posts()) : $custom_query->the_post(); ?>
 bootstrap class-->
 <div class="<?php post_class(); ?>" id="post-<?php the_ID(); ?>">
 
-	
+	<div class="picturegrid1">
 	<div class="picturemain">
 	<img src="<?php the_field('picture-main'); ?>" >
 		</div>
@@ -188,10 +188,10 @@ bootstrap class-->
 
 
 	</div>
-
+</div>
 <?php endwhile; ?>
 <?php wp_reset_postdata(); // reset the query ?>
-	</div>
+	
 </div>
 </div>
 
