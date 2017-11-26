@@ -166,32 +166,24 @@ the_title(); ?></a></h3>
 <h2 class="sectionheadline">[ pictures ]</h2>
 <div class="row">
 <div class="picturesgrid">
-<!-- slide show goes here -->
-<?php
+			<?php $custom_query = new
+WP_Query(array ( 'orderby' => 'rand', 'category' => 'pictures', 'posts_per_page' => '1' ));
+while($custom_query->have_posts()) : $custom_query->the_post(); ?>
+<!--before you start showing me a post, wrap it in a div with a
+bootstrap class-->
+<div class="col-xs-12 col-sm-3 push sectionpost <?php post_class(); ?>" id="post-<?php the_ID(); ?>">
 
-        $pictures_query = new WP_query('posts_per_page=1&category_name=pictures&order_by=rand' );
-        //the loop
-      
-        if($pictures_query->have_posts()) {
-			$pictures_query->the_post();
-			
-			echo '<div class="pictureimg">';
-			echo '<img src="';
-			the_field('picture-main'); 
-			echo '" />';
-			echo '</div>';
-			echo '<div class="picturetitle">';
-			echo '<h1 class="pictureheadline">';
-			echo the_field('picture-title'); 
-			echo '</h1>';
-			echo '<h3><a href="';
-			echo the_permalink(); 
-			echo the_field('picture-link-text');
-			echo '</a></h3>';
-			echo '</div>';
-}
-	wp_reset_postdata();
-?> 
+<?php echo get_the_post_thumbnail( $post_id, 'home-thumb', array( 'class' => 'sectionimg linebackground' ) ); ?>
+<!--get the post title, wrap it in an h3 tag and make it a hyper link to
+the actual post-->
+<h3><a href="<?php the_permalink(); ?>"><?php
+the_title(); ?></a></h3>
+<h4><?php the_field('post-tagline'); ?></h4>
+<a href="<?php the_permalink(); ?>">Read more</a>
+	</div>
+
+<?php endwhile; ?>
+<?php wp_reset_postdata(); // reset the query ?>
 	</div>
 </div>
 </div>
@@ -220,8 +212,6 @@ the_title(); ?></a></h3>
 
 <?php endwhile; ?>
 <?php wp_reset_postdata(); // reset the query ?>
-
-<!--loop will go here-->
 
 </div>
 </div>
