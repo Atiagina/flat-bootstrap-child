@@ -7,10 +7,8 @@ PostType Page Template: Interview
 
 get_header(); ?>
 
-<?php get_template_part( 'content', 'header' ); ?>
 
 <div class="container">
-<div id="main-grid" class="row">
 	<div class="interviewgrid1">
 	
 	<div class="interviewheadline">
@@ -58,7 +56,6 @@ get_header(); ?>
 	</div>
 	
 	
-</div><!-- .row -->
 </div><!-- .container -->
 
 <?php get_footer(); ?>
