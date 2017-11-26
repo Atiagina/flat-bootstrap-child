@@ -360,6 +360,13 @@ button:hover, button:focus, html input[type="button"]:hover, html input[type="bu
 	align-items: center;
 }
 
+.sectionpost a {
+	background-color: #0da5dc;
+	color: white;
+	width: 100%;
+	padding: 5px;
+}
+
 .after-footer {
 	max-width: 100%;
 	background: black;
@@ -517,3 +524,5 @@ div.interviewgrid3 {
 	background-color: rgba(250,250,250,0.7);
 	padding: 10px;
 }
+
+
