@@ -112,7 +112,7 @@ while($custom_query->have_posts()) : $custom_query->the_post(); ?>
 bootstrap class-->
 <div class="col-xs-12 col-sm-4 push sectionpost <?php post_class(); ?>" id="post-<?php the_ID(); ?>">
 
-<?php $url = wp_get_attachment_url( get_post_thumbnail_id($post->ID,'thumbnail'),
+<?php $url = wp_get_attachment_url( get_post_thumbnail_id($post->ID),
 				set_post_thumbnail_size( 350, 250, array( 'center', 'center')  ));
 				
 				echo '<img class="sectionimg linebackground" src="';
