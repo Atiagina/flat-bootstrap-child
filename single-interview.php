@@ -31,12 +31,14 @@ get_header(); ?>
 		</div>
 	</div>
 	
-	<div class="interviewgrid2">
-		
-	<div class="interviewtext1">
+
+		<div class="row">
+	<div class="col-xs-12 col-sm-offset-2 col-sm-6 interviewtext1">
 	<?php the_field('interview-text-1'); ?>
 		</div>
+	</div>
 		
+			<div class="interviewgrid2">
 		<div class="interviewimage1">
 	 <img src="<?php the_field('interview-image-1'); ?> " />
 		</div>
@@ -62,7 +64,6 @@ get_header(); ?>
 			<img src="<?php the_field('interview-image-3'); ?> " />
 		</div>
 	</div>
-	
 	
 </div><!-- .container -->
 
