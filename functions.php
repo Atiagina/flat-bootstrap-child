@@ -116,4 +116,4 @@ function xsbf_child_credits ( $site_credits ) {
 
 add_theme_support( 'post-thumbnails' );
 
-set_post_thumbnail_size( 350, 350, true ); 
+set_post_thumbnail_size( 450, 350, true ); 
