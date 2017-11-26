@@ -113,7 +113,7 @@ bootstrap class-->
 <div class="col-xs-12 col-sm-4 push sectionpost <?php post_class(); ?>" id="post-<?php the_ID(); ?>">
 
 <?php 
-	echo get_the_post_thumbnail( $post_id, 'home-thumb', array( 'class' => 'linebackground' ) );
+	echo get_the_post_thumbnail( $post_id, 'home-thumb', array( 'class' => 'sectionimg linebackground' ) );
 	// $url = wp_get_attachment_url( get_post_thumbnail_id($post->ID, 'thumbnail-news') );
 				
 				//echo '<img class="" src="';
@@ -126,8 +126,6 @@ the_title(); ?></a></h3>
 <h4><?php the_field('post-tagline'); ?></h4>
 <!--get the author's name-->
 
-<!--get the excerpt-->
-<?php the_excerpt(); ?>
 	</div>
 
 <?php endwhile; ?>
