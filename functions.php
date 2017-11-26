@@ -114,4 +114,6 @@ function xsbf_child_credits ( $site_credits ) {
 	return $site_credits;
 }
 
+add_theme_support( 'post-thumbnails' );
+
 add_image_size( 'thumbnail-news', 350, 250, array('center','center') );

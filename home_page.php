@@ -114,7 +114,7 @@ bootstrap class-->
 
 <?php $url = wp_get_attachment_url( get_post_thumbnail_id($post->ID,'thumbnail-news'));
 				
-				echo '<img class="sectionimg linebackground" src="';
+				echo '<img class="" src="';
 				echo $url;
 				echo '">'; ?>
 <!--get the post title, wrap it in an h3 tag and make it a hyper link to
