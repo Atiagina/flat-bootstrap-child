@@ -436,7 +436,7 @@ div.interviewgrid1 {
 	height: 100%;
 	display: grid;
 	grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
-	gird-template-rows: auto;
+	gird-template-rows: 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
 }
 
 div.interviewgrid1 .interviewhero {
