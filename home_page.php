@@ -169,7 +169,7 @@ the_title(); ?></a></h3>
 <!-- slide show goes here -->
 <?php
 $args = array('posts_per_page' => 1,
-                    'category_name' => 'Pictures');
+                    'category_name' => 'pictures');
         $pictures_query = new WP_query( $args );
         //the loop
       
@@ -189,8 +189,6 @@ $args = array('posts_per_page' => 1,
 			echo the_permalink(); 
 			echo the_field('picture-link-text');
 			echo '</a></h3>';
-			echo '</div>';
-			
 			echo '</div>';
 			echo '</div>';
 
