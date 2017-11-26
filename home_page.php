@@ -165,7 +165,7 @@ the_title(); ?></a></h3>
 <div class="container-fluid">
 <h2 class="sectionheadline">[ pictures ]</h2>
 <div class="row">
-<div class="picturesgrid">
+<div class="picturegrid1">
 			<?php $custom_query = new
 WP_Query(array ( 'orderby' => 'rand', 'category_name' => 'pictures', 'posts_per_page' => '1' ));
 while($custom_query->have_posts()) : $custom_query->the_post(); ?>
@@ -177,7 +177,7 @@ bootstrap class-->
 	<div class="picturemain">
 	<img src="<?php the_field('picture-main'); ?>" >
 		</div>
-	<div class="picturehealine">
+	<div class="pictureheadline">
 	<?php the_field('picture-title'); ?> 
 		</div>
 	
