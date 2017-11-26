@@ -7,31 +7,30 @@ PostType Page Template: Pictures
 
 get_header(); ?>
 
-<?php get_template_part( 'content', 'header' ); ?>
-<h1>Pictures template</h1>
 <div class="container">
-<div id="main-grid" class="row">
 
-	<div id="primary" class="content-area col-md-8">
-		<main id="main" class="site-main" role="main">
+<div class="row">
+<div class="col-xs-12 col-sm-4">
+<?php the_field('category-for-headline'); ?>
+	</div>
+	</div>
+</div>
 
-		<?php while ( have_posts() ) : the_post(); ?>
+<div class="container">
+<div class="picturegrid1">
+	
+	<div class="picturemain">
+	<?php the_field('picture-main'); ?>
+		</div>
+	<div class="picturehealine">
+	<img src="<?php the_field('picture-title'); ?> " />
+		</div>
+	
+	<div class="pictureintro">
+	<?php the_field('picture-intro'); ?>
+	<?php the_field('picture-byline'); ?>
+		</div>
+	</div>
 
-			<?php get_template_part( 'content', 'single' ); ?>
-
-			<?php
-				// If comments are open or we have at least one comment, load up the comment template
-				if ( comments_open() || '0' != get_comments_number() )
-					comments_template();
-			?>
-
-		<?php endwhile; // end of the loop. ?>
-
-		</main><!-- #main -->
-	</div><!-- #primary -->
-
-<?php get_sidebar(); ?>
-</div><!-- .row -->
-</div><!-- .container -->
-
+</div>
 <?php get_footer(); ?>

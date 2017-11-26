@@ -168,8 +168,31 @@ the_title(); ?></a></h3>
 
 <!-- slide show goes here -->
 <?php
-if( function_exists('fa_display_slider') ){
-    fa_display_slider( 243 );
+$args = array('posts_per_page' => 1,
+                    'orderby' => 'rand',
+                    'category_name' => 'pictures');
+        $testimonials_query = new WP_query( $args );
+        //the loop
+      
+        if($testimonials_query->have_posts()) {
+			  echo '<div class="picturesgrid">';
+			echo '<div class="pictureimg">';
+			echo '<img src="';
+			echo the_field('picture-main'); 
+			echo '" />';
+			echo '</div>';
+			echo '<div class="picturetitle">';
+			echo '<h1 class="pictureheadline">';
+			echo the_field('picture-title'); 
+			echo '</h1>';
+			echo '<h3><a href="';
+			echo the_permalink(); 
+			echo the_field('picture-link-text');
+			echo '</a></h3>';
+			echo '</div>';
+			
+			echo '</div>';
+
 }
 ?> 
 	</div>
