@@ -432,6 +432,8 @@ white-space: nowrap;
 }
 
 div.interviewgrid1 {
+	width: 100%;
+	height: 100%;
 	display: grid;
 	grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
 	gird-template-rows: auto;
