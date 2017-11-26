@@ -171,15 +171,22 @@ WP_Query(array ( 'orderby' => 'rand', 'category_name' => 'pictures', 'posts_per_
 while($custom_query->have_posts()) : $custom_query->the_post(); ?>
 <!--before you start showing me a post, wrap it in a div with a
 bootstrap class-->
-<div class="col-xs-12 sectionpost <?php post_class(); ?>" id="post-<?php the_ID(); ?>">
+<div class="col-xs-12 picturegrid1 <?php post_class(); ?>" id="post-<?php the_ID(); ?>">
 
-<?php echo get_the_post_thumbnail( $post_id, 'home-thumb', array( 'class' => 'sectionimg linebackground' ) ); ?>
-<!--get the post title, wrap it in an h3 tag and make it a hyper link to
-the actual post-->
-<h3><a href="<?php the_permalink(); ?>"><?php
-the_title(); ?></a></h3>
-<h4><?php the_field('post-tagline'); ?></h4>
-<a href="<?php the_permalink(); ?>">Read more</a>
+	
+	<div class="picturemain">
+	<img src="<?php the_field('picture-main'); ?>" >
+		</div>
+	<div class="picturehealine">
+	<?php the_field('picture-title'); ?> 
+		</div>
+	
+	<div class="pictureintro">
+	<?php the_field('post-tagline'); ?>
+	<a href="<?php the_permalink(); ?>">Read more</a>
+		</div>
+
+
 	</div>
 
 <?php endwhile; ?>
