@@ -125,7 +125,7 @@ the actual post-->
 the_title(); ?></a></h3>
 <h4><?php the_field('post-tagline'); ?></h4>
 <!--get the author's name-->
-
+<a href="<?php the_permalink(); ?>">Read more</a>
 	</div>
 
 <?php endwhile; ?>
