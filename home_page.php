@@ -171,10 +171,10 @@ the_title(); ?></a></h3>
 $args = array('posts_per_page' => 1,
                     'orderby' => 'rand',
                     'category_name' => 'pictures');
-        $testimonials_query = new WP_query( $args );
+        $pictures_query = new WP_query( $args );
         //the loop
       
-        if($testimonials_query->have_posts()) {
+        if($pictures_query->have_posts()) {
 			  echo '<div class="picturesgrid">';
 			echo '<div class="pictureimg">';
 			echo '<img src="';
@@ -195,6 +195,8 @@ $args = array('posts_per_page' => 1,
 
 }
 ?> 
+<?php endwhile; ?>
+<?php wp_reset_postdata(); // reset the query ?>
 	</div>
 </div>
 
