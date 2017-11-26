@@ -57,7 +57,6 @@ get_header(); ?>
 		</div>
 	</div>
 	
-	</div> <!-- end of interviewgrid -->
 	
 </div><!-- .row -->
 </div><!-- .container -->
