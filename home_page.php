@@ -167,11 +167,11 @@ the_title(); ?></a></h3>
 <div class="row">
 <div class="picturesgrid">
 			<?php $custom_query = new
-WP_Query(array ( 'orderby' => 'rand', 'category' => 'pictures', 'posts_per_page' => '1' ));
+WP_Query(array ( 'orderby' => 'rand', 'categoryname' => 'pictures', 'posts_per_page' => '1' ));
 while($custom_query->have_posts()) : $custom_query->the_post(); ?>
 <!--before you start showing me a post, wrap it in a div with a
 bootstrap class-->
-<div class="col-xs-12 col-sm-3 push sectionpost <?php post_class(); ?>" id="post-<?php the_ID(); ?>">
+<div class="col-xs-12 sectionpost <?php post_class(); ?>" id="post-<?php the_ID(); ?>">
 
 <?php echo get_the_post_thumbnail( $post_id, 'home-thumb', array( 'class' => 'sectionimg linebackground' ) ); ?>
 <!--get the post title, wrap it in an h3 tag and make it a hyper link to
