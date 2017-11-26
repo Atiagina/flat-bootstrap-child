@@ -20,10 +20,10 @@ get_header(); ?>
 <div class="picturegrid1">
 	
 	<div class="picturemain">
-	<?php the_field('picture-main'); ?>
+	<img src="<?php the_field('picture-main'); ?>" >
 		</div>
 	<div class="picturehealine">
-	<img src="<?php the_field('picture-title'); ?> " />
+	<?php the_field('picture-title'); ?> 
 		</div>
 	
 	<div class="pictureintro">
