@@ -360,11 +360,20 @@ button:hover, button:focus, html input[type="button"]:hover, html input[type="bu
 	align-items: center;
 }
 
+.sectionpost h3 {
+	width: 100%;
+}
+
+.sectionpost h4 {
+	font-weight: 300;
+}
+
 .sectionpost a {
 	background-color: #0da5dc;
 	color: white;
 	width: 100%;
 	padding: 5px;
+	font-weigth: 500;
 }
 
 .after-footer {
