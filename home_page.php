@@ -170,7 +170,7 @@ the_title(); ?></a></h3>
 <?php
 $args = array('posts_per_page' => 1,
                     'orderby' => 'rand',
-                    'category_name' => 'pictures');
+                    'category_name' => 'Pictures');
         $pictures_query = new WP_query( $args );
         //the loop
       
