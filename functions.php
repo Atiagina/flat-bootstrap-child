@@ -116,4 +116,4 @@ function xsbf_child_credits ( $site_credits ) {
 
 add_theme_support( 'post-thumbnails' );
 
-add_image_size('home-thumb', 450, 350, true ); 
+add_image_size('home-thumb', 350, 350, true ); 
