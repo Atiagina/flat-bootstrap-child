@@ -24,13 +24,80 @@ get_header(); ?>
 		</div>
 	<div class="pictureheadline">
 	<?php the_field('picture-title'); ?> 
+	<?php the_field('picture-intro'); ?>
 		</div>
 	
 	<div class="pictureintro">
-	<?php the_field('picture-intro'); ?>
+	
 	<?php the_field('picture-byline'); ?>
 		</div>
 	</div>
+<div class="picture1">
+<div class="picturearea">
+	<img src="<?php the_field('picture-1'); ?>" >
+		</div>
+	<div class="captionarea">
+	<?php the_field('caption-1'); ?> 
+	</div>
+</div>
+<div class="picture2">
+<div class="picturearea">
+	<img src="<?php the_field('picture-2'); ?>" >
+		</div>
+	<div class="captionarea">
+	<?php the_field('caption-2'); ?> 
+	</div>
+</div>
+<div class="picture1">
+<div class="picturearea">
+	<img src="<?php the_field('picture-3'); ?>" >
+		</div>
+	<div class="captionarea">
+	<?php the_field('caption-3'); ?> 
+	</div>
+</div>
+<div class="picture2">
+<div class="picturearea">
+	<img src="<?php the_field('picture-4'); ?>" >
+		</div>
+	<div class="captionarea">
+	<?php the_field('caption-4'); ?> 
+	</div>
+</div>
+<div class="picture1">
+<div class="picturearea">
+	<img src="<?php the_field('picture-5'); ?>" >
+		</div>
+	<div class="captionarea">
+	<?php the_field('caption-5'); ?> 
+	</div>
+</div>
 
+<div class="picture2">
+<div class="picturearea">
+	<img src="<?php the_field('picture-6'); ?>" >
+		</div>
+	<div class="captionarea">
+	<?php the_field('caption-6'); ?> 
+	</div>
+</div>
+
+<div class="picture1">
+<div class="picturearea">
+	<img src="<?php the_field('picture-7'); ?>" >
+		</div>
+	<div class="captionarea">
+	<?php the_field('caption-7'); ?> 
+	</div>
+</div>
+
+<div class="picture2">
+<div class="picturearea">
+	<img src="<?php the_field('picture-8'); ?>" >
+		</div>
+	<div class="captionarea">
+	<?php the_field('caption-8'); ?> 
+	</div>
+</div>
 </div>
 <?php get_footer(); ?>
