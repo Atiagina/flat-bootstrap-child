@@ -239,6 +239,9 @@ $('.masterTooltip').hover(function(){
 		
 
 	</header><!-- #masthead -->
+	
+<!-- link to go back to top  -->	
+<span id="home"> </span>
 
 	<?php // Set up the content area (but don't put it in a container) ?>	
 	<div id="content" class="site-content">
