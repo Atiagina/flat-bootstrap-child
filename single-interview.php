@@ -84,6 +84,7 @@ get_header(); ?>
 
 <div class="container">
 <div class="row">
+	<h1>[ you might also like ]</h1>
 	<?php
 	$related = new WP_Query(
     array(
@@ -96,10 +97,10 @@ get_header(); ?>
 if( $related->have_posts() ) { 
     while( $related->have_posts() ) { 
         $related->the_post(); ?>
-       <div class="col-xs-12 col-sm-4 push sectionpost <?php post_class(); ?>" id="post-<?php the_ID(); ?>">
+       <div class="col-xs-12  col-sm-offset-1 col-sm-3 push sectionpost <?php post_class(); ?>" id="post-<?php the_ID(); ?>">
 
 <?php 
-	echo get_the_post_thumbnail( $post_id, 'home-thumb', array( 'class' => 'sectionimg linebackground' ) );
+	echo get_the_post_thumbnail( $post_id, 'thumbnail');
 	// $url = wp_get_attachment_url( get_post_thumbnail_id($post->ID, 'thumbnail-news') );
 				
 				//echo '<img class="" src="';
