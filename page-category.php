@@ -14,7 +14,8 @@
 
 get_header(); ?>
 
-
+   <?php if (have_posts()) : ?>
+        <?php while (have_posts()) : the_post(); ?>
 <div class="container">
 
 <div class="row">
@@ -77,6 +78,15 @@ the_title(); ?></a></h3>
 
 
 </div>
+
+<?php endwhile; else:?>
+        <div class="container not-found">
+            <div class="entry">
+                <p class="lead"><?php _e('Sorry, this page does not exist. Try searching for one.'); ?></p>
+                <?php get_search_form(); ?>
+            </div>
+        </div>
+        <?php endif; ?>
 
 
 <div class="container-fluid">
