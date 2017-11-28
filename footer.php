@@ -21,9 +21,7 @@
 	<?php // Start the footer area ?>
 	<footer id="colophon" class="site-footer" role="contentinfo">
 		
-	<?php // Footer "sidebar" widget area (1 to 4 columns supported)
-	get_sidebar( 'footer' );
-	?>
+	
 	<div class="footer-info container-fluid">
 	<div class="row socialmedia-row">
 	<i class="fa fa-facebook-square" aria-hidden="true"></i> 
@@ -106,7 +104,9 @@
 			</nav>
 			</div><!-- .footer-nav-menu -->
 		<?php endif; ?>
-
+<?php // Footer "sidebar" widget area (1 to 4 columns supported)
+	get_sidebar( 'footer' );
+	?>
 		<?php // Footer site credits
 		if ( $site_credits AND $nav_menu ) : ?>
 			<div id="site-credits" class="site-credits pull-right">
