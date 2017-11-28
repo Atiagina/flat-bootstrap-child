@@ -58,7 +58,7 @@ get_header(); ?>
 </g>
 	</a>
 	 <a xlink:href="#coyoacan" class="masterTooltip" title="Coyoacan">
-<g id="coyoacan">
+<g id="coyoacanarea">
 	<g>
 		<polygon fill="#4B92CF" points="298.2,530.2 279,591 301,722 369.4,743.8 405.5,708.2 438.1,668.8 418.8,595.3 420.7,567.8 
 			332.5,561.4 		"/>
@@ -87,7 +87,7 @@ get_header(); ?>
 </g>
 	</a>
 	 <a xlink:href="#condesa" class="masterTooltip" title="Condesa">
-<g id="condesa">
+<g id="condesaarea">
 	<g>
 		<polygon fill="#64C9D4" points="378.5,342 327,345.3 296.6,380.9 292,416.2 326.1,438.5 364.1,416 		"/>
 	</g>
@@ -112,7 +112,7 @@ get_header(); ?>
 </g>
 	</a>
 	 <a xlink:href="#roma" class="masterTooltip" title="Roma">
-<g id="Roma">
+<g id="Romaarea">
 	<g>
 		<polygon fill="#D7DF23" points="383.4,342 438.1,331 435.5,407.9 370.6,416 		"/>
 	</g>
@@ -132,7 +132,7 @@ get_header(); ?>
 </g>
 	</a>
 	 <a xlink:href="#centro" class="masterTooltip" title="Centro">
-<g id="Centro">
+<g id="Centroarea">
 	<g>
 		<polygon fill="#BC91B4" points="429.4,206.2 387.3,296.3 434.3,325 487,324.2 491.2,228.7 		"/>
 	</g>
@@ -153,7 +153,7 @@ get_header(); ?>
 </g>
 	</a>
 	 <a xlink:href="#polanco" class="masterTooltip" title="Polanco">
-<g id="Polanco">
+<g id="Polancoarea">
 	<g>
 		<polygon fill="#7ACBC0" points="195.2,266.2 339.6,277.8 317.4,321.6 212.9,305 		"/>
 	</g>
@@ -398,7 +398,7 @@ get_header(); ?>
 </g>
 	</a>
 	 <a xlink:href="#doctores" class="masterTooltip" title="Doctores">
-<g id="doctores">
+<g id="doctoresarea">
 	<g opacity="0.5">
 		<polygon fill="#1B75BC" points="443.3,331 463.9,331 521.9,329.6 499.6,394.9 441.6,407.9 		"/>
 	</g>
