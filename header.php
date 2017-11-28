@@ -189,7 +189,7 @@ $('.masterTooltip').hover(function(){
 
 				   <h4><?php echo $tagline ?></h4>
 
-<?php endif; ?>
+
 					</div>
                 <?php //if ( function_exists( 'jetpack_the_site_logo' ) ) jetpack_the_site_logo(); ?>
                <!--
