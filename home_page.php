@@ -78,7 +78,7 @@ get_header(); ?>
 				echo '<div class="col-xs-12 col-sm-7 featured-country-img">';
 				echo '<img id="featured-country-img" src="';
 				echo $url;
-				echo '" alt="map of cdmx"></div>';
+				echo '" alt="featured country"></div>';
 				echo '<div class="col-xs-12 col-sm-5 featured-country-text">';
 				echo '<h1><a href="';
 				the_permalink();
@@ -88,6 +88,7 @@ get_header(); ?>
 				echo '<h4>';
 				the_field('featured-tagline');
 				echo '</h4>';
+				<a href="<?php the_permalink(); ?>">Read more</a>
 				the_content();
 				echo '</div>';
 				
@@ -124,7 +125,6 @@ the actual post-->
 <h3><a href="<?php the_permalink(); ?>"><?php
 the_title(); ?></a></h3>
 <h4><?php the_field('post-tagline'); ?></h4>
-<!--get the author's name-->
 <a href="<?php the_permalink(); ?>">Read more</a>
 	</div>
 
