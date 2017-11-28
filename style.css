@@ -665,7 +665,7 @@ div.interviewgrid3 {
 }
 
 .cdmxcard {
-	margin-top: 100px;
+	padding-top: 80px;
 	display: grid;
 	height: 80vh;
 	grid-template-columns: repeat(8, 1fr);
@@ -681,7 +681,7 @@ div.interviewgrid3 {
 .cdmxtitle {
 	grid-column: 1/5;
 	grid-row: 1/2;
-	font-size: 2em;
+	font-size: 4em;
 	font-weight: bold;
 }
 
