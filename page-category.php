@@ -47,8 +47,12 @@ the_title(); ?>
 <div class="container">
 <div class="row">
 
-<?php $custom_query = new
-WP_Query('category_name=people&order=asc');
+<?php
+	$custom_query = new WP_Query;
+			echo '(category_name=';
+		 echo the_field("categoryname-field");
+		 echo'&order=asc';
+		echo ');';
 while($custom_query->have_posts()) : $custom_query->the_post(); ?>
 <!--before you start showing me a post, wrap it in a div with a
 bootstrap class-->
