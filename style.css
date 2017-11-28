@@ -775,6 +775,11 @@ div.interviewgrid3 {
 	font-size: calc(2vw + 2vh + 1vmin);
 }
 
+.likeimg {
+	float: right;
+	padding-right: 0;
+	margin-right: 0;
+}
 
 
 /* media queries */
