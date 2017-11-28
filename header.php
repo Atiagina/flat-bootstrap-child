@@ -38,6 +38,55 @@
   }
 });
 	</script>
+	
+	
+<!-- jQuery for smoothscrolling from the svg map  -->	
+	
+<script>
+
+	$(document).ready(function() {
+	$('div.svgmap svg a').on('click',function (e) {
+		e.preventDefault();
+	
+		var target = $(this).attr('xlink:href');
+		var $target = $(target);
+	
+		$('html, body').stop().animate({
+			'scrollTop': $target.offset().top
+		}, 900, 'swing', function () {
+			window.location.hash = target;
+		});
+	});
+});
+	
+	</script>
+	
+<!-- jQuery for tooltips on the map  -->
+
+<script type="text/javascript">
+$(document).ready(function() {
+// Tooltip only Text
+$('.masterTooltip').hover(function(){
+        // Hover over code
+        var title = $(this).attr('title');
+        $(this).data('tipText', title).removeAttr('title');
+        $('<p class="tooltip"></p>')
+        .text(title)
+        .appendTo('body')
+        .fadeIn('slow');
+}, function() {
+        // Hover out code
+        $(this).attr('title', $(this).data('tipText'));
+        $('.tooltip').remove();
+}).mousemove(function(e) {
+        var mousex = e.pageX ; //Get X coordinates
+        var mousey = e.pageY ; //Get Y coordinates
+        $('.tooltip')
+        .css({ top: mousey, left: mousex })
+});
+});
+</script>
+
 </head>
 
 <body <?php body_class(); ?>>
