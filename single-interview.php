@@ -82,26 +82,6 @@ get_header(); ?>
 	
 </div><!-- .container -->
 
-<div class="container-fluid">
-
-<div class="row">
- <?php 
-		$query = new WP_Query( 'pagename=advertising' );
-		// The Loop
-		if ( $query->have_posts() ) {
-			while ( $query->have_posts() ) {
-				$query->the_post(); ?>
-              
-               <img src="<?php the_field('ad-banner-1'); ?> " />
-		 <?php
-			}
-		}
-		/* Restore original Post Data */
-		wp_reset_postdata();
-		?>
-	
-	</div>
-</div>
 
 <!-- you might also like -->
 <div class="container">
@@ -152,5 +132,27 @@ the_title(); ?></a></h3>
 	
 </div>
 </div>
+
+<div class="container-fluid">
+
+<div class="row">
+ <?php 
+		$query = new WP_Query( 'pagename=advertising' );
+		// The Loop
+		if ( $query->have_posts() ) {
+			while ( $query->have_posts() ) {
+				$query->the_post(); ?>
+              
+               <img src="<?php the_field('ad-banner-1'); ?> " />
+		 <?php
+			}
+		}
+		/* Restore original Post Data */
+		wp_reset_postdata();
+		?>
+	
+	</div>
+</div>
+
 
 <?php get_footer(); ?>
