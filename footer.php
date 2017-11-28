@@ -106,9 +106,7 @@
 			</nav>
 			</div><!-- .footer-nav-menu -->
 			<div class="col-xs-12-col-sm-4">
-			<?php // Footer "sidebar" widget area (1 to 4 columns supported)
-	get_sidebar( 'footer' );
-	?>
+			<?php get_search_form(); ?>
 		</div>
 		</div>
 <div class="row">
