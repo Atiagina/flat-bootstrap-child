@@ -89,7 +89,7 @@ get_header(); ?>
 				the_field('featured-tagline');
 				echo '</h4>';
 				the_content();
-				echo '<a class="btn" href="';
+				echo '<a class="readmore" href="';
 				the_permalink();
 				echo '">Read more</a>';
 				echo '</div>';
