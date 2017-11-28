@@ -3187,7 +3187,6 @@ the_title(); ?></h3>
 <?php wp_reset_postdata(); // reset the query ?>
 
 	</div>
-</div>
 
 <div class="container-fluid">
 
