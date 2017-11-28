@@ -23,14 +23,14 @@
 		
 	
 	<div class="footer-info container-fluid">
-	<div class="row">
-	<div class="socialmedia-row">
+	<div class="row socialmedia-row">
+	
 	<i class="fa fa-facebook-square" aria-hidden="true"></i> 
 	<i class="fa fa-tumblr-square" aria-hidden="true"></i>
 	<i class="fa fa-pinterest-square" aria-hidden="true"></i>
 	<i class="fa fa-instagram" aria-hidden="true"></i>
 	<i class="fa fa-youtube-square" aria-hidden="true"></i>
-		</div>
+		
 		</div>
 	<div class="row subscribe-row">
 	
