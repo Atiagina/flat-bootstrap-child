@@ -48,7 +48,7 @@ the_title(); ?>
 <div class="row">
 
 <?php
-	$custom_query = new WP_Query('category_name=' . get_the_title());
+	$custom_query = new WP_Query('category_name=' . the_field('categoryname-field'));
 		
 while($custom_query->have_posts()) : $custom_query->the_post(); ?>
 <!--before you start showing me a post, wrap it in a div with a
