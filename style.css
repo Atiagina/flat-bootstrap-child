@@ -665,7 +665,7 @@ div.interviewgrid3 {
 }
 
 .cdmxcard {
-	padding-top: 80px;
+	padding-top: 100px;
 	display: grid;
 	height: auto;
 	grid-template-columns: repeat(8, 1fr);
@@ -696,8 +696,8 @@ div.interviewgrid3 {
 .wanderpicture {
 	grid-column: 5/9;
 	grid-row: 3/4;
-	display: flex;
-	align-content: right;
+	margin-top: 0;
+	
 }
 
 .wanderpicture img {
