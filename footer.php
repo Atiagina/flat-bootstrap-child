@@ -32,9 +32,7 @@
 	<i class="fa fa-youtube-square" aria-hidden="true"></i>
 		
 		</div>
-	<div class="row subscribe-row">
 	
-		</div>
 		</div>
 
 	<?php // Check for footer navbar (optional)
