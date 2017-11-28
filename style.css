@@ -226,6 +226,7 @@ input[type="submit"] {
 	border-color: #0da5dc;
 	font-weight: 500;
 	text-transform: lowercase;
+	border-radius: 4px;
 }
 
 button:hover, button:focus, html input[type="button"]:hover, html input[type="button"]:focus, input[type="submit"]:hover, input[type="submit"]:focus {
