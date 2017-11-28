@@ -770,6 +770,11 @@ div.interviewgrid3 {
     top: 5px;
 }
 
+.big-category-headline {
+	font-weight: 500;
+	font-size: calc(2vw + 2vh + 1vmin);
+}
+
 
 
 /* media queries */
