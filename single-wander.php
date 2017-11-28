@@ -292,7 +292,7 @@ get_header(); ?>
 </g>
 	</a>
 	 <a xlink:href="#satelite" class="masterTooltip" title="Satelite">
-<g id="satelite">
+<g id="satelitearea">
 	<g>
 		<polygon fill="#F7D441" points="75.2,37.8 64.5,121 117.8,166.5 147.8,227.5 179,236.2 189.4,201.3 148.7,60 		"/>
 	</g>
@@ -348,7 +348,7 @@ get_header(); ?>
 </g>
 	</a>
 	 <a xlink:href="#xochimilco" class="masterTooltip" title="Xochimilco">
-<g id="Xochimilco">
+<g id="Xochimilcoarea">
 	<g>
 		<polygon fill="#B4DFCF" points="413.5,710.5 458,716.8 515.2,743.7 560.9,794.1 511.1,844.7 428.5,850.8 383.5,785.1 373.3,749.9 
 					"/>
@@ -378,7 +378,7 @@ get_header(); ?>
 </g>
 	</a>
 	 <a xlink:href="#tlalpan" class="masterTooltip" title="Tlalpan">
-<g id="tlalpan">
+<g id="tlalpanarea">
 	<g>
 		<polygon fill="#F3BD81" points="273.5,719 233.9,807.2 347,826.6 364.2,749 		"/>
 	</g>
@@ -425,7 +425,7 @@ get_header(); ?>
 </g>
 	</a>
 	 <a xlink:href="#tepito" class="masterTooltip" title="Tepito">
-<g id="tepito">
+<g id="tepitoarea">
 	<g>
 		<polygon fill="#70C3E0" points="498,264.2 500.4,211.4 526.3,206.2 548.5,248.9 		"/>
 	</g>
@@ -445,7 +445,7 @@ get_header(); ?>
 </g>
 	</a>
 	 <a xlink:href="#unam" class="masterTooltip" title="Ciudad Universitaria">
-<g id="unam">
+<g id="unamarea">
 	<g>
 		<polygon fill="#78B17F" points="169.1,729.8 251.8,752.1 273.8,702.7 255.6,644.6 190.6,640.5 		"/>
 	</g>
