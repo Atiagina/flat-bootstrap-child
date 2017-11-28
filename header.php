@@ -45,7 +45,7 @@
 <script>
 
 	$(document).ready(function() {
-	$('div.svgmap svg a').on('click',function (e) {
+	$('#svgmapitself a').on('click',function (e) {
 		e.preventDefault();
 	
 		var target = $(this).attr('xlink:href');
