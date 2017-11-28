@@ -683,6 +683,7 @@ div.interviewgrid3 {
 	grid-row: 1/2;
 	font-size: 4em;
 	font-weight: bold;
+	margin-top: -20px;
 }
 
 .cdmxdescription {
