@@ -104,7 +104,8 @@ a {
 }
 .sidebar-footer a:hover:not(.btn), .sidebar-footer a:focus:not(.btn), .footer-nav-menu a:hover:not(.btn), .footer-nav-menu a:focus:not(.btn),
 a:hover,
-a:focus {
+a:focus,
+.navbar-default .navbar-nav > li > a:hover {
 	color: #0da5dc;
 	opacity: .75;
 }
