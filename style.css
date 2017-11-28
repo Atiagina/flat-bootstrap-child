@@ -250,6 +250,7 @@ button:hover, button:focus, html input[type="button"]:hover, html input[type="bu
     min-width: 800px;
 }
 
+.wanderheadline h1,
 #featured h1 {
 	grid-row: 2/3;
 	grid-column: 7/10;
@@ -266,6 +267,7 @@ button:hover, button:focus, html input[type="button"]:hover, html input[type="bu
 	z-index: 80;
 }
 
+.wanderheadline h2,
 #featuredtitle h2 {
 	font-size: 40px;
 	color: black;
@@ -279,6 +281,7 @@ button:hover, button:focus, html input[type="button"]:hover, html input[type="bu
 	z-index: 200;
 }
 
+.wanderheadline h4,
 #featured h4 {
 	grid-row: 3/5;
 	grid-column: 7/10;
@@ -631,13 +634,16 @@ div.interviewgrid3 {
 .wandertop {
 	height: 100vh;
 	width: 100%;
-	
+	display: grid;
+	grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+	grid-template-rows: auto;
 }
 .svgmap {
 	
 	width: auto;
 	height: 100vh;
-	
+	grid-columns: 1/5;
+	grid-rows: 1/4;
 }
 
 #svgmapitself {
@@ -648,6 +654,13 @@ div.interviewgrid3 {
 .cdmximg {
 	max-width: 400px;
 	width: 100%;
+}
+
+
+
+.wanderheadline {
+	grid-columns: 4/6;
+	grid-rows: 1/3;
 }
 
 /* media queries */
