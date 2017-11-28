@@ -108,12 +108,7 @@ a:focus {
 	opacity: .75;
 }
 
-/* Make the buttons square, if you'd like. */
-.btn {
-	-webkit-border-radius: 0 !important;
-	-moz-border-radius: 0 !important;
-	border-radius: 0 !important;
-}
+
 
 /* PUT ANY NEW STYLES TO USE IN YOUR CONTENT AREAS HERE SO YOU CAN EASILY PASTE THIS
  * SECTION IF YOU CHANGE THEMES
