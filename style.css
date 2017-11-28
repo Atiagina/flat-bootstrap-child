@@ -674,7 +674,7 @@ div.interviewgrid3 {
 
 .cdmximg {
 	grid-column: 1/5;
-	grid-row: 1/4;
+	grid-row: 2/4;
 }
 
 .cdmxtitle {
@@ -688,10 +688,14 @@ div.interviewgrid3 {
 }
 
 .wanderpicture {
-	grid-column: 5/9;
+	grid-column: 4/7;
 	grid-row: 3/4;
 }
 
+.wanderpicture img {
+	max-width: 400px;
+	width: 100%;
+}
 
 
 
