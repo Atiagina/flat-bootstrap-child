@@ -3172,12 +3172,15 @@ bootstrap class-->
 the actual post-->
 <h3 class="cdmxtitle"><?php
 the_title(); ?></h3>
-<dov class="cdmxdescription">
+<div class="cdmxdescription">
 	<?php the_field('wander-description'); ?>
 	</div>
 	<div class="wanderpicture">
 	<img src="<?php the_field('wander-picture'); ?>" >
 		</div>
+	
+	</div>
+	
 	</div>
 
 <?php endwhile; ?>
