@@ -135,7 +135,7 @@
 
 
 <!-- Return to Top arrow code  -->
-<a href="javascript:" id="return-to-top"><i class="icon-chevron-up"></i></a>
+<a href="javascript:" id="return-to-top"><i class="fa fa-chevron-up" aria-hidden="true"></i></a>
 
 
 <!-- return to top jQuery  -->
