@@ -775,7 +775,7 @@ div.interviewgrid3 {
 	font-size: calc(2vw + 2vh + 1vmin);
 }
 
-.likeimg {
+.likeimg img {
 	float: right;
 	padding-right: 0;
 	margin-right: 0;
