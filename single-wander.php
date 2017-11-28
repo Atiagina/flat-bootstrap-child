@@ -3163,7 +3163,7 @@ while($custom_query->have_posts()) : $custom_query->the_post();
 	?>
 <!--before you start showing me a post, wrap it in a div with a
 bootstrap class-->
-<div id="<?php the_field('wander-link'); ?>" class="col-xs-12 cdmxcard <?php post_class(); ?>" id="post-<?php the_ID(); ?>">
+<div id="<?php the_field('wander-link'); ?>" class="col-xs-12 col-sm-offset-2 col-sm-8 cdmxcard <?php post_class(); ?>" id="post-<?php the_ID(); ?>">
 
 <?php echo '<img class="cdmximg" src="';
 	echo $url; 
