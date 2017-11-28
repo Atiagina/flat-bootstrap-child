@@ -620,6 +620,12 @@ div.interviewgrid3 {
 	font-weight: 500;
 }
 
+.searchbox {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
 
 /* media queries */
 
