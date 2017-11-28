@@ -640,6 +640,11 @@ div.interviewgrid3 {
 	
 }
 
+#svgmapitself {
+	width: auto;
+	height: 100vh;
+}
+
 .cdmximg {
 	max-width: 400px;
 	width: 100%;
