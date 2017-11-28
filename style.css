@@ -629,6 +629,13 @@ div.interviewgrid3 {
 }
 
 
+.svgmap {
+	
+	width: 80vw;
+	height: auto;
+	
+}
+
 /* media queries */
 
 @media only screen and (max-width: 768px){
