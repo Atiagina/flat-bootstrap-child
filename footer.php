@@ -105,8 +105,10 @@
 				<?php endif; ?>
 			</nav>
 			</div><!-- .footer-nav-menu -->
-			<div class="col-xs-12 col-sm-3 searchbox">
+			<div class="col-xs-12 col-sm-4 searchbox">
+			<div>
 			<?php get_search_form(); ?>
+				</div>
 		</div>
 		</div>
 <div class="row">
