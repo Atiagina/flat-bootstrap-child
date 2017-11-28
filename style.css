@@ -631,8 +631,8 @@ div.interviewgrid3 {
 
 .svgmap {
 	
-	width: 80vw;
-	height: auto;
+	width: auto;
+	height: 100vh;
 	
 }
 
