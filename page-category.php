@@ -31,15 +31,29 @@ the_title(); ?>
 
 <div class="row">
 <div class="category-top-grid">
-<img src="<?php the_field('main-article-image'); ?>" >
+<?php
+	$custom_query = new WP_Query('category_name=' . get_field('categoryname-field') . '&posts_per_page=1');
+		
+while($custom_query->have_posts()) : $custom_query->the_post(); 
+	$url = wp_get_attachment_url( get_post_thumbnail_id($post->ID) );
+	echo '<img class="category-hero" src="';
+	echo $url;
+	echo '" >';
+	?>
+
 <div class="main-article-headline">
-	<?php the_field('main-article-title'); ?>
+	<?php the_title(); ?>
 	</div>
 <div class="main-article-intro">
-	<?php the_field('main-article-description'); ?>
-	</div>
+	<h4><?php the_field('post-tagline'); ?></h4>
+<a class="readmore" href="<?php the_permalink(); ?>">Read more</a>
 	</div>
 	
+	
+	
+<?php endwhile; ?>
+<?php wp_reset_postdata(); // reset the query ?>
+	</div>
 	</div>
 </div>
 
