@@ -662,9 +662,9 @@ div.interviewgrid3 {
 }
 
 .cdmximg {
-	max-width: 300px;
+	max-width: 350px;
 	max-height: 350px;
-	margin-right: -20px;
+	float: right;
 	height: auto;
 	width: 100%;
 }
