@@ -94,6 +94,7 @@
 	if ( $nav_menu OR $site_credits ) : ?>	  
 	<div class="after-footer">
 	<div class="container">
+		<div class="row">
 
 		<?php // Footer nav menu
 		if ( $nav_menu ) : ?>
@@ -101,12 +102,16 @@
 			<nav id="footer-navigation" class="secondary-navigation" role="navigation">
 				<h1 class="menu-toggle sr-only"><?php _e( 'Footer Menu', 'flat-bootstrap' ); ?></h1>
 				<?php echo $nav_menu; ?>
+				<?php endif; ?>
 			</nav>
 			</div><!-- .footer-nav-menu -->
-		<?php endif; ?>
-<?php // Footer "sidebar" widget area (1 to 4 columns supported)
+			<div class="col-xs-12-col-sm-4">
+			<?php // Footer "sidebar" widget area (1 to 4 columns supported)
 	get_sidebar( 'footer' );
 	?>
+		</div>
+		</div>
+<div class="row">
 		<?php // Footer site credits
 		if ( $site_credits AND $nav_menu ) : ?>
 			<div id="site-credits" class="site-credits pull-right">
@@ -117,7 +122,7 @@
 			<?php echo $site_credits; ?>
 			</div><!-- .site-credits -->
 		<?php endif; ?>
-
+		</div>
 	</div><!-- .container -->
 	</div><!-- .after-footer -->
 	<?php endif; ?>
