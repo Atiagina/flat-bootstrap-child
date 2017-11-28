@@ -219,7 +219,9 @@ a:focus {
 	font-family: 'Rubik', sans-serif;
 }
 
-button {
+button,
+html input[type="button"], 
+input[type="submit"] {
 	background-color: #0da5dc;
 	border-color: #0da5dc;
 }
@@ -622,8 +624,8 @@ div.interviewgrid3 {
 
 .searchbox {
 	display: flex;
-	justify-content: center;
-	align-items: center;
+	justify-content: flex-end;
+	align-content: right;
 }
 
 
