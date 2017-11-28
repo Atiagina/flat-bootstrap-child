@@ -179,13 +179,15 @@ $('.masterTooltip').hover(function(){
 
 			// If no custom header, then just display the site title and tagline
 			} else {
-			*/ ?>
+			*/ 
+				$tagline = get_field( "tagline", 14 );
+				?>
 				<div class="container">
                <div class="site-logo">
                <a href="<?php echo esc_url( home_url( '/' ) ); ?>" rel="home"><img src="<?php echo header_image() ?>" alt="logo" id="wanderwomenlogo"></a>
                <?php if( get_field('tagline') ): ?>
 
-				   <h4><?php the_field('tagline'); ?></h4>
+				   <h4><?php echo $tagline ?></h4>
 
 <?php endif; ?>
 					</div>
