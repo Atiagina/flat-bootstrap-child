@@ -3115,6 +3115,11 @@ get_header(); ?>
 	</div>
 </div>
 <div class="container">
+<div class="row">
+<div class="col-xs-12 col-sm-offset-3 col-sm-6">
+<?php the_field('wander-intro'); ?>
+	</div>
+	</div>
 <div class="row neigborhood">
 	
 	
