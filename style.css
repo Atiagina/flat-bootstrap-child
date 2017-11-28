@@ -640,6 +640,11 @@ div.interviewgrid3 {
 	
 }
 
+.cdmximg {
+	max-width: 400px;
+	width: 100%;
+}
+
 /* media queries */
 
 @media only screen and (max-width: 768px){

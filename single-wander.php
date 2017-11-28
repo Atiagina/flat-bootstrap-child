@@ -3113,6 +3113,8 @@ get_header(); ?>
 		</div>
 	</div>
 	</div>
+</div>
+<div class="container">
 <div class="row neigborhood">
 	
 	
@@ -3125,7 +3127,7 @@ while($custom_query->have_posts()) : $custom_query->the_post();
 bootstrap class-->
 <div class="col-xs-12 col-sm-offset-2 col-sm-8 cdmxcard <?php post_class(); ?>" id="post-<?php the_ID(); ?>">
 
-<?php echo '<img src="';
+<?php echo '<img class="cdmximg src="';
 	echo $url; 
 	echo '" >';?>
 <!--get the post title, wrap it in an h3 tag and make it a hyper link to
