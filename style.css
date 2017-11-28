@@ -395,7 +395,7 @@ a.readmore {
 margin-top: 20px;
 }
 
-.row.socialmedia-row {
+.socialmedia-row {
 	display: flex;
 	flex-direction: row;
 	justify-content: space-between;

@@ -112,7 +112,7 @@ get_header(); ?>
 			while ( $query->have_posts() ) {
 				$query->the_post(); ?>
               
-               <img src="<?php the_field('ad-banner-3'); ?> " />
+               <img src="<?php the_field('ad-banner-2'); ?> " />
 		 <?php
 			}
 		}
