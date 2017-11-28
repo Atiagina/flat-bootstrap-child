@@ -684,7 +684,7 @@ div.interviewgrid3 {
 	font-size: 4em;
 	font-weight: bold;
 	margin-top: -30px;
-	margin-right: 40px;
+	margin-right: 20px;
 	text-align: right;
 }
 
@@ -699,7 +699,7 @@ div.interviewgrid3 {
 }
 
 .wanderpicture img {
-	max-width: 300px;
+	max-width: 200px;
 	width: 100%;
 }
 
