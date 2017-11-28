@@ -712,6 +712,7 @@ div.interviewgrid3 {
 .wanderpicture img {
 	max-width: 300px;
 	width: 100%;
+	max-height: 400px;
 }
 
 
