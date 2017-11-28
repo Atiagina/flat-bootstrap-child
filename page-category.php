@@ -42,7 +42,7 @@ while($custom_query->have_posts()) : $custom_query->the_post();
 	?>
 
 <div class="main-article-headline">
-	<?php the_title(); ?>
+	<h1><?php the_title(); ?></h1>
 	</div>
 <div class="main-article-intro">
 	<h4><?php the_field('post-tagline'); ?></h4>
