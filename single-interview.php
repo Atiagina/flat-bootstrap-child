@@ -81,6 +81,46 @@ get_header(); ?>
 	</div>
 	
 </div><!-- .container -->
+
+<div class="container">
+<div class="row">
+	<?php
+	$related = new WP_Query(
+    array(
+        'category__in'   => wp_get_post_categories( $post->ID ),
+        'posts_per_page' => 3,
+        'post__not_in'   => array( $post->ID )
+    )
+);
+
+if( $related->have_posts() ) { 
+    while( $related->have_posts() ) { 
+        $related->the_post(); ?>
+       <div class="col-xs-12 col-sm-4 push sectionpost <?php post_class(); ?>" id="post-<?php the_ID(); ?>">
+
+<?php 
+	echo get_the_post_thumbnail( $post_id, 'home-thumb', array( 'class' => 'sectionimg linebackground' ) );
+	// $url = wp_get_attachment_url( get_post_thumbnail_id($post->ID, 'thumbnail-news') );
+				
+				//echo '<img class="" src="';
+				//echo $url;
+				//echo '">'; ?>
+<!--get the post title, wrap it in an h3 tag and make it a hyper link to
+the actual post-->
+<h3><a href="<?php the_permalink(); ?>"><?php
+the_title(); ?></a></h3>
+<h4><?php the_field('post-tagline'); ?></h4>
+<a class="readmore" href="<?php the_permalink(); ?>">Read more</a>
+	</div>
+<?php
+    }
+    wp_reset_postdata();
+}
+	
+	?>
+
+	</div>
+</div>
 <div class="container-fluid">
 
 <div class="row">
