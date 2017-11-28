@@ -112,7 +112,7 @@ a:focus,
 
 .navbar-default .navbar-nav > .active > a, .navbar-default .navbar-nav > .active > a:hover, .navbar-default .navbar-nav > .active > a:focus {
 	color: #0da5dc;
-	background-color: none;
+	background-color: rgba(0,0,0,0);
 }
 
 
