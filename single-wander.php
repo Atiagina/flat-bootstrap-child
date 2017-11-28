@@ -3170,7 +3170,7 @@ bootstrap class-->
 	echo '" >';?>
 <!--get the post title, wrap it in an h3 tag and make it a hyper link to
 the actual post-->
-<h3 class="cdmxtitle"><?php
+<h3 class="cdmxtitle" style="color: <?php the_field('area-color'); ?>;"><?php
 the_title(); ?></h3>
 <div class="cdmxdescription">
 	<?php the_field('wander-description'); ?>
