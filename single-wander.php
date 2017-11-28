@@ -266,7 +266,7 @@ get_header(); ?>
 </g>
 	</a>
 		 <a xlink:href="#airport" class="masterTooltip" title="Airport">
-<g id="airport">
+<g id="airportarea">
 	<g>
 		<polygon fill="#F7941D" points="623.7,284.9 722.7,245.9 722.7,268.6 693.7,348.5 655.6,347.7 647.3,350.3 636.4,350.3 
 			606.8,338.2 588.4,322.1 619.6,308 		"/>
