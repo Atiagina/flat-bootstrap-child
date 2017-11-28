@@ -3108,8 +3108,8 @@ get_header(); ?>
 
 		</div>
 	<div class="wanderheadline">
-	<?php the_field('wander-title'); ?> 
-	<?php the_field('wander-intro'); ?>
+	<?php the_content(); ?> 
+	
 		</div>
 	</div>
 	</div>
