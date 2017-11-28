@@ -401,6 +401,12 @@ margin-top: 20px;
 	flex-direction: row;
 	justify-content: space-between;
 	align-content:space-between;
+	color: white;
+	background-color: black;
+}
+
+.socialmedia-row i {
+	font-size: 2em;
 }
 
 .linebackground {
