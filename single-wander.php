@@ -3124,7 +3124,7 @@ get_header(); ?>
 	
 	
 <?php $custom_query = new
-WP_Query('category_name=wanderadditional');
+WP_Query('category_name=wanderadditional&order=asc');
 while($custom_query->have_posts()) : $custom_query->the_post();
 	 $url = wp_get_attachment_url( get_post_thumbnail_id($post->ID) );
 	?>
