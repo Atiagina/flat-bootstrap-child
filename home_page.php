@@ -127,7 +127,7 @@ the actual post-->
 <h3><a href="<?php the_permalink(); ?>"><?php
 the_title(); ?></a></h3>
 <h4><?php the_field('post-tagline'); ?></h4>
-<a href="<?php the_permalink(); ?>">Read more</a>
+<a class="readmore" href="<?php the_permalink(); ?>">Read more</a>
 	</div>
 
 <?php endwhile; ?>
@@ -217,7 +217,7 @@ the actual post-->
 <h3><a href="<?php the_permalink(); ?>"><?php
 the_title(); ?></a></h3>
 <h4><?php the_field('post-tagline'); ?></h4>
-<a href="<?php the_permalink(); ?>">Read more</a>
+<a class="readmore" href="<?php the_permalink(); ?>">Read more</a>
 	</div>
 
 <?php endwhile; ?>
@@ -265,7 +265,7 @@ the actual post-->
 <h3><a href="<?php the_permalink(); ?>"><?php
 the_title(); ?></a></h3>
 	<h4><?php the_field('post-tagline'); ?></h4>
-<a href="<?php the_permalink(); ?>">Read more</a>
+<a class="readmore" href="<?php the_permalink(); ?>">Read more</a>
 	</div>
 
 <?php endwhile; ?>
