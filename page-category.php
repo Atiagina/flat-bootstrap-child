@@ -37,7 +37,8 @@ the_title(); ?>
 while($custom_query->have_posts()) : $custom_query->the_post(); 
 	$url = wp_get_attachment_url( get_post_thumbnail_id($post->ID) );
 	echo '<img class="category-hero" src="';
-	echo $url;
+/*	echo $url;*/
+	echo the_field('hero-image-main');
 	echo '" >';
 	?>
 
