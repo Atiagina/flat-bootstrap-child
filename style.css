@@ -782,10 +782,10 @@ div.interviewgrid3 {
 	margin-right: 0;
 }
 
-img.category-hero {
-	
-	height: 80vh;
+.category-top-grid {
+	height: 100vh;
 }
+
 
 
 /* media queries */
