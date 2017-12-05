@@ -3152,12 +3152,10 @@ get_header(); ?>
 			$url = wp_get_attachment_url( get_post_thumbnail_id($post->ID) );
 	echo '<img src="';
 /*	echo $url;*/
-	echo the_field('hero-image-main');
+	echo $url;
 	echo '" >';
 	?>
 
-			
-			?>
 	</div>
 		
 	</div>
