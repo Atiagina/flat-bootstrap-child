@@ -661,11 +661,11 @@ div.interviewgrid3 {
 	grid-column: 1/5;
 	grid-row: 1/4;
 }
-
+/*
 #svgmapitself {
 	width: auto;
 	height: 100vh;
-}
+}*/
 
 .cdmximg {
 	max-width: 350px;
@@ -984,10 +984,6 @@ div.interviewgrid3 {
 	grid-row: 2/3;
 	}
 
-#svgmapitself {
-	width: auto;
-	height: 100vh;
-}
 
 .cdmximg {
 	max-width: 350px;
