@@ -19,6 +19,8 @@ get_header(); ?>
 <div class="container">
 <div class="row">
 <div class="wandertop">
+
+
 	
 	<div class="svgmap">
 	<!-- insert svg -->
@@ -3144,6 +3146,10 @@ get_header(); ?>
 	<?php the_content(); ?> 
 	
 		</div>
+		<div class="mobile-hero">
+		<img src="<?php the_field('hero-image-main'); ?>"
+	</div>
+		
 	</div>
 	</div>
 </div>
