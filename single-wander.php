@@ -3147,7 +3147,7 @@ get_header(); ?>
 	
 		</div>
 		<div class="mobile-hero">
-		<img src="<?php the_field('hero-image-main'); ?>"
+		<img src="<?php the_field('hero-image-main'); ?>" alt="cdmx" />
 	</div>
 		
 	</div>
