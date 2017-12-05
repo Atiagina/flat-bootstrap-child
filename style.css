@@ -792,7 +792,7 @@ div.interviewgrid3 {
 @media only screen and (min-width: 1800px){
 		
 
-.pictureheadline h1 {
+.interviewheadline h1 {
 	font-size: calc(2.5vw + 2.5vh + 2vmin);
 	line-height: 1em;
 	font-weight: bold;
@@ -913,7 +913,7 @@ div.interviewgrid1 .interviewhero {
 div.interviewgrid1 .interviewheadline {
 	grid-column: 1/3;
 	grid-row: 1/2;
-	font-size: calc(2vw + 2vh + 2vmin);
+	font-size: calc(3vw + 3vh + 2vmin);
 	line-height: auto;
 }
 
