@@ -3147,7 +3147,17 @@ get_header(); ?>
 	
 		</div>
 		<div class="mobile-hero">
-		<img src="<?php the_field('hero-image-main'); ?>" alt="cdmx" />
+		<?php
+			
+			$url = wp_get_attachment_url( get_post_thumbnail_id($post->ID) );
+	echo '<img src="';
+/*	echo $url;*/
+	echo the_field('hero-image-main');
+	echo '" >';
+	?>
+
+			
+			?>
 	</div>
 		
 	</div>
