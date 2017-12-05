@@ -772,7 +772,8 @@ div.interviewgrid3 {
 
 .big-category-headline {
 	font-weight: 500;
-	font-size: calc(2vw + 2vh + 1vmin);
+	font-size: calc(1.6vw + 1.6vh + 0.6vmin);
+	
 }
 
 .likeimg img {
