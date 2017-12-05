@@ -811,24 +811,6 @@ div.interviewgrid1 .interviewheadline {
 
 @media only screen and (max-width: 768px){
 	
-	
-#site-branding .container {
-	display: grid;
-	grid-template-rows: auto;
-	grid-template-columns: repeat(2, 1fr);
-	
-}
-
-.site-logo {
-	grid-column: 1/3;
-	grid-row: 1/2;
-}
-
-.currentissueheader {
-	grid-column: 1/3;
-	grid-row: 2/3;
-	
-}
 
 		
 		/* featured styles */
@@ -1083,3 +1065,27 @@ div.interviewgrid3 {
 
 
 	}
+
+
+
+@media only screen and (max-width: 500px){
+	
+	
+#site-branding .container {
+	display: grid;
+	grid-template-rows: auto;
+	grid-template-columns: repeat(2, 1fr);
+	
+}
+
+.site-logo {
+	grid-column: 1/3;
+	grid-row: 1/2;
+}
+
+.currentissueheader {
+	grid-column: 1/3;
+	grid-row: 2/3;
+	
+}
+}
